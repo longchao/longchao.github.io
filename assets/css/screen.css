@@ -2082,15 +2082,16 @@ body:not(.post-template) .post-title {
     font-family: 'Open Sans', sans-serif;
 }
 .side-col{
-    -webkit-box-flex:  0 0 25%; 
-    -webkit-flex:  0 0 25%; 
-    flex: 0 0 25%;
+    -webkit-box-flex: 1; 
+    -webkit-flex: 1; 
+    flex: 1%;
     margin-bottom: 2.5em; 
 }
 .main-col{
-    -webkit-box-flex: 1; 
+/*    -webkit-box-flex: 1; 
     -webkit-flex: 1; 
-    flex: 1;
+    flex: 1;*/
+        width: 75%;
     display: -webkit-box;
     display: -webkit-flex;
     display: flex;
@@ -2100,14 +2101,19 @@ body:not(.post-template) .post-title {
 }
 
 .full-width{
-    -webkit-box-flex:  0 0 100%;     
+/*    -webkit-box-flex:  0 0 100%;     
     -webkit-flex:  0 0 100%; 
-    flex: 0 0 100%;
+    flex: 0 0 100%;*/
+    width: 100%
 }
 .half-width{
-    -webkit-box-flex:  0 0 50%; 
+/*    -webkit-box-flex:  0 0 50%; 
     -webkit-flex:  0 0 50%; 
-    flex: 0 0 50%;
+    flex: 0 0 50%;*/
+/*    -webkit-box-flex: 1; 
+    -webkit-flex: 1; 
+    flex: 1%;*/
+    width: 50%;
 }
 .work-container {
     border: 1px solid #78CBF5;
@@ -2129,17 +2135,15 @@ body:not(.post-template) .post-title {
         margin-left: 0;
     }
     .side-col{
-        -webkit-box-flex: 0 0 100%;
-        -webkit-flex: 0 0 100%;
-        flex: 0 0 100%;
         text-align: center;
+    }
+    .main-col{
+        width: 100%;
     }
 }
 @media screen and (max-width: 767px){
     .half-width{
-        -webkit-box-flex: 0 0 100%;
-        -webkit-flex: 0 0 100%;
-        flex: 0 0 100%;
+        width: 100%;
     }
     .work-container:nth-child(3){
         border-left: 1px solid #e0e0e0;
