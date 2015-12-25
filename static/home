@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <title>home</title>
+    <meta name="description" content="" />
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <link rel="stylesheet" type="text/css" href="assets/css/screen.css?v=e941cfc7a7" />
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400" />
+
+    <link rel="canonical" href="home" />
+    <meta name="referrer" content="origin" />
+    <meta name="generator" content="Ghost 0.7" />
+    <link rel="alternate" type="application/rss+xml" title="longchao&#x27;s blog" href="rss/index.html" />
+</head>
+<body class="post-template page-template page page-home page-template-home nav-closed">
+
+    <div class="nav">
+    <h3 class="nav-title">Menu</h3>
+    <a href="home#" class="nav-close">
+        <span class="hidden">Close</span>
+    </a>
+    <ul>
+            <li class="nav-home" role="presentation"><a href="home">Home</a></li>
+            <li class="nav-blog" role="presentation"><a href="index.html">Blog</a></li>
+            <li class="nav-works" role="presentation"><a href="tag/works">Works</a></li>
+    </ul>
+    <a class="subscribe-button icon-feed" href="rss/index.html">Subscribe</a>
+</div>
+<span class="nav-cover"></span>
+
+
+    <div class="site-wrapper">
+
+        
+
+
+
+<header class="main-header " style="background-image: url(content/images/2015/12/index-bg.png)">
+    <nav class="main-nav overlay clearfix">
+        
+            <a class="menu-button icon-menu" href="home#"><span class="word">Menu</span></a>
+    </nav>
+    <div class="vertical">
+        <div class="main-header-content inner">
+            <h1 class="page-title">longchao&#x27;s blog</h1>
+            <h2 class="page-description">Thoughts, stories and ideas.</h2>
+        </div>
+    </div>
+    <a class="scroll-down icon-arrow-left" href="home#content" data-offset="-45"><span class="hidden">Scroll Down</span></a>
+</header>
+
+<main class="content" role="main">
+    <article class="post page">
+
+</h1>
+        </header> 
+
+        <section class="post-content">
+            <div class="row" style="margin-top:2em">  
+<div class="side-col">  
+<span class="section-title">近期项目</span>  
+</div>  
+
+<div class="main-col">  
+<div class="work-container full-width">  
+<a href="home">  
+<span class="work-title">在线学习体验设计</span>  
+<img src="content/images/2015/12/-----4.png" alt="" />
+</a>  
+</div>  
+
+<div class="work-container half-width">  
+<a href="home">  
+<span class="work-title">洋葱数学iOS应用</span>  
+<img src="content/images/2015/12/-----2.png" alt="" />
+</a>  
+</div>  
+
+<div class="work-container half-width">  
+<a href="mycard.1">  
+<span class="work-title">Mycard卡片管理应用</span>  
+<img src="content/images/2015/12/Bitmap3-1.png" alt="" />
+</a>  
+</div>  
+
+<p><a href="tag/works" style="margin-top:2em;">更多项目 ⇢</a> <br />
+</div> <br />
+</div></p>
+
+<div class="row">  
+<div class="side-col">  
+<span class="section-title">我是谁</span>  
+</div>
+
+<div class="main-col">  
+我是龙超，目前是一款在线教育产品「洋葱数学」的用户体验设计师。我设计学生在网页和移动端的学习体验，并和工程师协并肩把它们变成现实。
+</div>  
+
+<p></div></p>
+        </section>
+
+    </article>
+</main>
+
+
+        <footer class="site-footer clearfix">
+            <section class="copyright"><a href="index.html">longchao&#x27;s blog</a> &copy; 2015</section>
+            <section class="poweredby">Proudly published with <a href="https://ghost.org">Ghost</a></section>
+        </footer>
+
+    </div>
+
+    
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.fitvids.js?v=e941cfc7a7"></script>
+    <script type="text/javascript" src="assets/js/index.js?v=e941cfc7a7"></script>
+
+</body>
+</html>

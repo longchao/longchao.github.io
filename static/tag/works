@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <title>Works - Page 1 - longchao&#x27;s blog</title>
+    <meta name="description" content="" />
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="../favicon.ico">
+
+    <link rel="stylesheet" type="text/css" href="../assets/css/screen.css?v=e941cfc7a7" />
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400" />
+
+    <link rel="canonical" href="works" />
+    <meta name="referrer" content="origin" />
+    
+    <meta property="og:site_name" content="longchao's blog" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Works - Page 1 - longchao&#x27;s blog" />
+    <meta property="og:url" content="http://localhost:2368/tag/works/" />
+    
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Works - Page 1 - longchao&#x27;s blog" />
+    <meta name="twitter:url" content="http://localhost:2368/tag/works/" />
+    
+    <script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "Series",
+    "publisher": "longchao's blog",
+    "url": "http://localhost:2368/tag/works/",
+    "name": "Works"
+}
+    </script>
+
+    <meta name="generator" content="Ghost 0.7" />
+    <link rel="alternate" type="application/rss+xml" title="longchao&#x27;s blog" href="../rss/index.html" />
+</head>
+<body class="tag-template tag-works nav-closed">
+
+    <div class="nav">
+    <h3 class="nav-title">Menu</h3>
+    <a href="works#" class="nav-close">
+        <span class="hidden">Close</span>
+    </a>
+    <ul>
+            <li class="nav-home" role="presentation"><a href="../home">Home</a></li>
+            <li class="nav-blog" role="presentation"><a href="../index.html">Blog</a></li>
+            <li class="nav-works" role="presentation"><a href="works">Works</a></li>
+    </ul>
+    <a class="subscribe-button icon-feed" href="../rss/index.html">Subscribe</a>
+</div>
+<span class="nav-cover"></span>
+
+
+    <div class="site-wrapper">
+
+        
+<header class="main-header tag-head no-cover">
+    <nav class="main-nav overlay clearfix">
+        
+            <a class="menu-button icon-menu" href="works#"><span class="word">Menu</span></a>
+    </nav>
+    <div class="vertical">
+        <div class="main-header-content inner">
+            <h1 class="page-title">Works</h1>
+            <h2 class="page-description">
+                    A 3-post collection
+            </h2>
+        </div>
+    </div>
+</header>
+
+<main class="content" role="main">
+
+    <div class="extra-pagination inner">
+    <nav class="pagination" role="navigation">
+    <span class="page-number">Page 1 of 1</span>
+</nav>
+</div>
+
+<article class="post tag-works featured">
+    <header class="post-header">
+        <h2 class="post-title"><a href="../learning-data-visualization/index.html">为教师设计学习数据可视化</a></h2>
+    </header>
+    <section class="post-excerpt">
+        <p>作为洋葱数学的一分子，我们始终共享一种理念：做在线教育，不是把传统线下的教学强行搬到线上，而是对传统教学的增强。我们知道，传统教学活动包括了两方的三个环节，即学生「学习知识点」、「完成练习」，老师「根据学生练习结果进行反馈指导」。洋葱数学已经依靠可反复观看的微 <a class="read-more" href="../learning-data-visualization/index.html">&raquo;</a></p>
+    </section>
+    <footer class="post-meta">
+        
+        <a href="../author/longchao/index.html">龙超</a>
+         on <a href="works">Works</a>
+        <time class="post-date" datetime="2015-09-04">04 September 2015</time>
+    </footer>
+</article>
+<article class="post tag-works">
+    <header class="post-header">
+        <h2 class="post-title"><a href="../homepage-animation/index.html">首页的动画设计</a></h2>
+    </header>
+    <section class="post-excerpt">
+        <p>拥有游戏般的学习体验是洋葱数学一直追求的设计方向。动画Animation和转场动效Transition大量存在于各种游戏中，在创造情感体验上起到很重要的作用。所以我们想把动画效果加入首页，希望能达到这样几个目的： 为全站注入一种性格   帮助吸引视线，创造一种 <a class="read-more" href="../homepage-animation/index.html">&raquo;</a></p>
+    </section>
+    <footer class="post-meta">
+        
+        <a href="../author/longchao/index.html">龙超</a>
+         on <a href="works">Works</a>
+        <time class="post-date" datetime="2015-08-10">10 August 2015</time>
+    </footer>
+</article>
+<article class="post tag-works featured">
+    <header class="post-header">
+        <h2 class="post-title"><a href="../mycard.1">Mycard卡片管理应用</a></h2>
+    </header>
+    <section class="post-excerpt">
+        <p>时间   2012         角色   user research, sto­ry­boards, infor­ma­tion architecture, interaction, visual design      Mycard是内部创新 <a class="read-more" href="../mycard.1">&raquo;</a></p>
+    </section>
+    <footer class="post-meta">
+        
+        <a href="../author/longchao/index.html">龙超</a>
+         on <a href="works">Works</a>
+        <time class="post-date" datetime="2015-04-15">15 April 2015</time>
+    </footer>
+</article>
+
+<nav class="pagination" role="navigation">
+    <span class="page-number">Page 1 of 1</span>
+</nav>
+
+</main>
+
+
+        <footer class="site-footer clearfix">
+            <section class="copyright"><a href="../index.html">longchao&#x27;s blog</a> &copy; 2015</section>
+            <section class="poweredby">Proudly published with <a href="https://ghost.org">Ghost</a></section>
+        </footer>
+
+    </div>
+
+    
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="../assets/js/jquery.fitvids.js?v=e941cfc7a7"></script>
+    <script type="text/javascript" src="../assets/js/index.js?v=e941cfc7a7"></script>
+
+</body>
+</html>

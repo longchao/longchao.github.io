@@ -1,0 +1,195 @@
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>介绍一款用户行为分析工具Hotjar</title>
+    <meta name="description" content="">
+
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="../favicon.ico">
+
+    <link rel="stylesheet" type="text/css" href="../assets/css/screen.css?v=e941cfc7a7">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic%7COpen+Sans:700,400">
+
+    <link rel="canonical" href="index.html">
+    <meta name="referrer" content="origin">
+    
+    <meta property="og:site_name" content="longchao's blog">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="介绍一款用户行为分析工具Hotjar">
+    <meta property="og:description" content="我们常用的数据分析平台，类似mixpanel，能为我们提供丰富的访问数据和用户行为数据。展示宏观的用户访问图景比如活跃数据、留存数据访问漏斗是他们的强项。当我们想探寻一项数据背后的原因——用户看到了这块内容了么？什么停止了用户继续使用？..等等，不自觉就会想要看看个体用户到底怎么用我们的网站的。 这时我和Hotjar不期而遇，这是一款多合一的分析和反馈工具，提供了诸如热力图、视频录像、漏斗等工具。你可以协同的使用它们去衡量网站的现状。特别的屌丝友好的是，Hotjar有免费的plan，适合抱着尝试心态的个人活着初创团队试用。（这么卖力的宣传，我真没有回扣） 我毫不犹豫地和前端coder一起把他部到了代码里。几天过去了，我们看看结果 Heatmap 页面热力图 用于分析用户与产品交互的点击、移动、滚动行为。以此推断页面的设计、布局等是否合理。 免费版可抓去3个页面，设置了首页、章节列表、教师首页，成功的只有首页（首页是静态其他的是单页面应用？） 屏幕录像 可记录从用户进入到跳出产品的使用全过程，用于分析用户在某页面具体的使用行为。...">
+    <meta property="og:url" content="http://localhost:2368/introducing-hotjar/">
+    <meta property="og:image" content="https://www.hotjar.com/static/img/app-heatmaps.png">
+    <meta property="article:published_time" content="2015-05-25T14:59:00.000Z">
+    <meta property="article:modified_time" content="2015-12-25T05:47:22.218Z">
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="介绍一款用户行为分析工具Hotjar">
+    <meta name="twitter:description" content="我们常用的数据分析平台，类似mixpanel，能为我们提供丰富的访问数据和用户行为数据。展示宏观的用户访问图景比如活跃数据、留存数据访问漏斗是他们的强项。当我们想探寻一项数据背后的原因——用户看到了这块内容了么？什么停止了用户继续使用？..等等，不自觉就会想要看看个体用户到底怎么用我们的网站的。 这时我和Hotjar不期而遇，这是一款多合一的分析和反馈工具，提供了诸如热力图、视频录像、漏斗等工具。你可以协同的使用它们去衡量网站的现状。特别的屌丝友好的是，Hotjar有免费的plan，适合抱着尝试心态的个人活着初创团队试用。（这么卖力的宣传，我真没有回扣） 我毫不犹豫地和前端coder一起把他部到了代码里。几天过去了，我们看看结果 Heatmap 页面热力图 用于分析用户与产品交互的点击、移动、滚动行为。以此推断页面的设计、布局等是否合理。 免费版可抓去3个页面，设置了首页、章节列表、教师首页，成功的只有首页（首页是静态其他的是单页面应用？） 屏幕录像 可记录从用户进入到跳出产品的使用全过程，用于分析用户在某页面具体的使用行为。...">
+    <meta name="twitter:url" content="http://localhost:2368/introducing-hotjar/">
+    <meta name="twitter:image:src" content="https://www.hotjar.com/static/img/app-heatmaps.png">
+    
+    <script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "Article",
+    "publisher": "longchao's blog",
+    "author": {
+        "@type": "Person",
+        "name": "龙超",
+        "url": "http://localhost:2368/author/longchao",
+        "sameAs": null,
+        "description": null
+    },
+    "headline": "介绍一款用户行为分析工具Hotjar",
+    "url": "http://localhost:2368/introducing-hotjar/",
+    "datePublished": "2015-05-25T14:59:00.000Z",
+    "dateModified": "2015-12-25T05:47:22.218Z",
+    "image": "https://www.hotjar.com/static/img/app-heatmaps.png",
+    "description": "我们常用的数据分析平台，类似mixpanel，能为我们提供丰富的访问数据和用户行为数据。展示宏观的用户访问图景比如活跃数据、留存数据访问漏斗是他们的强项。当我们想探寻一项数据背后的原因——用户看到了这块内容了么？什么停止了用户继续使用？..等等，不自觉就会想要看看个体用户到底怎么用我们的网站的。 这时我和Hotjar不期而遇，这是一款多合一的分析和反馈工具，提供了诸如热力图、视频录像、漏斗等工具。你可以协同的使用它们去衡量网站的现状。特别的屌丝友好的是，Hotjar有免费的plan，适合抱着尝试心态的个人活着初创团队试用。（这么卖力的宣传，我真没有回扣） 我毫不犹豫地和前端coder一起把他部到了代码里。几天过去了，我们看看结果 Heatmap 页面热力图 用于分析用户与产品交互的点击、移动、滚动行为。以此推断页面的设计、布局等是否合理。 免费版可抓去3个页面，设置了首页、章节列表、教师首页，成功的只有首页（首页是静态其他的是单页面应用？） 屏幕录像 可记录从用户进入到跳出产品的使用全过程，用于分析用户在某页面具体的使用行为。..."
+}
+    </script>
+
+    <meta name="generator" content="Ghost 0.7">
+    <link rel="alternate" type="application/rss+xml" title="longchao's blog" href="../rss/index.html">
+</head>
+<body class="post-template nav-closed">
+
+    <div class="nav">
+    <h3 class="nav-title">Menu</h3>
+    <a href="index.html#" class="nav-close">
+        <span class="hidden">Close</span>
+    </a>
+    <ul>
+            <li class="nav-home" role="presentation"><a href="../home">Home</a></li>
+            <li class="nav-blog" role="presentation"><a href="../">Blog</a></li>
+            <li class="nav-works" role="presentation"><a href="../tag/works">Works</a></li>
+    </ul>
+    <a class="subscribe-button icon-feed" href="../rss/index.rss">Subscribe</a>
+</div>
+<span class="nav-cover"></span>
+
+
+    <div class="site-wrapper">
+
+        
+
+
+<header class="main-header post-head " style="background-image: url(https://www.hotjar.com/static/img/app-heatmaps.png)">
+    <nav class="main-nav overlay clearfix">
+        
+            <a class="menu-button icon-menu" href="index.html#"><span class="word">Menu</span></a>
+    </nav>
+</header>
+
+<main class="content" role="main">
+    <article class="post">
+
+        <header class="post-header">
+            <h1 class="post-title">介绍一款用户行为分析工具Hotjar</h1>
+            <section class="post-meta">
+                <time class="post-date" datetime="2015-05-25">25 May 2015</time> 
+            </section>
+        </header>
+
+        <section class="post-content">
+            <p>我们常用的数据分析平台，类似<a href="http://mixpanel.com">mixpanel</a>，能为我们提供丰富的访问数据和用户行为数据。展示宏观的用户访问图景比如活跃数据、留存数据访问漏斗是他们的强项。当我们想探寻一项数据背后的原因——用户看到了这块内容了么？什么停止了用户继续使用？..等等，不自觉就会想要看看个体用户到底怎么用我们的网站的。</p>
+
+<p>这时我和<a href="http://Hotjar.com">Hotjar</a>不期而遇，这是一款多合一的分析和反馈工具，提供了诸如热力图、视频录像、漏斗等工具。你可以协同的使用它们去衡量网站的现状。特别的屌丝友好的是，Hotjar有免费的plan，适合抱着尝试心态的个人活着初创团队试用。（这么卖力的宣传，我真没有回扣）</p>
+
+<p>我毫不犹豫地和前端coder一起把他部到了代码里。几天过去了，我们看看结果</p>
+
+<h4 id="heatmap">Heatmap 页面热力图</h4>
+
+<p>用于分析用户与产品交互的点击、移动、滚动行为。以此推断页面的设计、布局等是否合理。
+免费版可抓去3个页面，设置了首页、章节列表、教师首页，成功的只有首页（首页是静态其他的是单页面应用？）</p>
+
+<p><img src="../content/images/2015/12/heatmap.png" alt="页面热力图"></p>
+
+<h4 id="">屏幕录像</h4>
+
+<p>可记录从用户进入到跳出产品的使用全过程，用于分析用户在某页面具体的使用行为。这个玩法很多，可以根据需要筛选你想看的视频：用户访问了多少页面；从什么页面进入、退出；访问时长；访问设备、浏览器等等。</p>
+
+<p><img src="../content/images/2015/12/screencapture.png" alt="屏幕录像"></p>
+
+<h4 id="">访问漏斗</h4>
+
+<p>依据用户的访问路径计算漏斗。这块可用于和我们基于埋点的分析进行交叉验证。
+目前统计成功的是首页－注册－应用内的成功漏斗，数据如下：</p>
+
+<p><img src="../content/images/2015/12/funnel.png" alt="访问漏斗"></p>
+
+<p>Hotjar还提供表单操作数据分析，以及投票、问卷等页面上的反馈功能。</p>
+
+<h4 id="">总结</h4>
+
+<p>Hotjar适合推荐给团队的所有成员，产品经理、工程师、设计师、市场不同的角色可以用不同的视角使用此工具，为持续改善产品提供有力支持。</p>
+        </section>
+
+        <footer class="post-footer">
+
+
+
+            <section class="author">
+                <h4><a href="../author/longchao/">龙超</a></h4>
+
+                    <p>Read <a href="../author/longchao/">more posts</a> by this author.</p>
+                <div class="author-meta">
+                    
+                    
+                </div>
+            </section>
+
+
+            <section class="share">
+                <h4>Share this post</h4>
+                <a class="icon-twitter" href="https://twitter.com/intent/tweet?text=%E4%BB%8B%E7%BB%8D%E4%B8%80%E6%AC%BE%E7%94%A8%E6%88%B7%E8%A1%8C%E4%B8%BA%E5%88%86%E6%9E%90%E5%B7%A5%E5%85%B7Hotjar&amp;url=http://localhost:2368/introducing-hotjar/" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                    <span class="hidden">Twitter</span>
+                </a>
+                <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:2368/introducing-hotjar/" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+                    <span class="hidden">Facebook</span>
+                </a>
+                <a class="icon-google-plus" href="https://plus.google.com/share?url=http://localhost:2368/introducing-hotjar/" onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+                    <span class="hidden">Google+</span>
+                </a>
+            </section>
+
+        </footer>
+
+    </article>
+</main>
+
+<aside class="read-next">
+    <a class="read-next-story " style="background-image: url(https://images.unsplash.com/45/eDLHCtzRR0yfFtU0BQar_sylwiabartyzel_themap.jpg?q=80&amp;amp;fm=jpg&amp;amp;s=01c873d86dbeae284f9128b2ca2201b9)" href="../user-onboarding-mistakes/">
+        <section class="post">
+            <h2>User Onboarding Mistakes</h2>
+            <p>在这个注意力和认知力十分宝贵的时代，尽快让用户明白你的服务的价值显得十分重要。useronboard.com的Samuel Hulick总结了5点在获取用户和尝试转化用户的过程中常见的失误。下面是摘要： Mistake #1: Counting on your interface to explain the value of your product…</p>
+        </section>
+    </a>
+    <a class="read-next-story prev " style="background-image: url(../content/images/2015/12/header--1--3.png)" href="../mycard.1">
+        <section class="post">
+            <h2>Mycard卡片管理应用</h2>
+            <p>时间   2012         角色   user research, sto­ry­boards, infor­ma­tion architecture, interaction, visual design      Mycard是内部创新小组的一次应用设计提案。我们想解决的问题很简单，帮助用户管理会员卡，以此将消费者与商家连接。…</p>
+        </section>
+    </a>
+</aside>
+
+
+
+        <footer class="site-footer clearfix">
+            <section class="copyright"><a href="../">longchao's blog</a> © 2015</section>
+            <section class="poweredby">Proudly published with <a href="https://ghost.org">Ghost</a></section>
+        </footer>
+
+    </div>
+
+    
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="../assets/js/jquery.fitvids.js?v=e941cfc7a7"></script>
+    <script type="text/javascript" src="../assets/js/index.js?v=e941cfc7a7"></script>
+
+</body>
