@@ -2124,6 +2124,7 @@ body:not(.post-template) .post-title {
         margin-left: 0;
     }
     .side-col{
+        width: 100%;
         text-align: center;
         margin-bottom: 0.8em;
     }
