@@ -2083,9 +2083,9 @@ body:not(.post-template) .post-title {
     font-family: 'Open Sans', sans-serif;
 }
 .side-col{
-    -webkit-box-flex: 1; 
+/*    -webkit-box-flex: 1; 
     -webkit-flex: 1; 
-    flex: 1;
+    flex: 1;*/
     margin-bottom: 0.9em;
 }
 .main-col{
@@ -2127,6 +2127,7 @@ body:not(.post-template) .post-title {
         width: 100%;
         text-align: center;
         margin-bottom: 0.8em;
+        
     }
     .side-col:after{
         content: '';
