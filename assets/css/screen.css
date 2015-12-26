@@ -2083,9 +2083,9 @@ body:not(.post-template) .post-title {
     font-family: 'Open Sans', sans-serif;
 }
 .side-col{
-    -webkit-box-flex: 1 0; 
-    -webkit-flex: 1 0; 
-    flex: 1 0;
+    -webkit-box-flex: auto; 
+    -webkit-flex: auto; 
+    flex: auto;
     margin-bottom: 0.9em;
 }
 .main-col{
