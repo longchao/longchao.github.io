@@ -1,20 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset
-    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-       http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">	
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
 <url>
-<loc>http://longchao.github.io</loc>
-<priority>1.00</priority>
-<lastmod>2015-12-26</lastmod>
-<changefreq>weekly</changefreq>
+  <loc>http://longchao.github.io/</loc>
+  <lastmod>2015-12-27T15:27:02+00:00</lastmod>
+  <changefreq>weekly</changefreq>
 </url>
 <url>
-<loc>http://longchao.github.io/index.html</loc>
-<priority>0.5</priority>
-<lastmod>2015-12-26</lastmod>
-<changefreq>weekly</changefreq>
+  <loc>http://longchao.github.io/index.html</loc>
+  <lastmod>2015-12-27T15:27:02+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://longchao.github.io/home</loc>
+  <lastmod>2015-12-27T15:27:02+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://longchao.github.io/tag/works</loc>
+  <lastmod>2015-12-27T15:27:02+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://longchao.github.io/learning-data-visualization/</loc>
+  <lastmod>2015-12-27T15:27:02+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://longchao.github.io/author/longchao/</loc>
+  <lastmod>2015-12-27T15:27:02+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://longchao.github.io/homepage-animation/</loc>
+  <lastmod>2015-12-27T15:27:02+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://longchao.github.io/user-onboarding-mistakes/</loc>
+  <lastmod>2015-12-27T15:27:02+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://longchao.github.io/introducing-hotjar/</loc>
+  <lastmod>2015-12-27T15:27:02+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://longchao.github.io/mycard/</loc>
+  <lastmod>2015-12-27T15:27:02+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://longchao.github.io/mycard/index.html</loc>
+  <lastmod>2015-12-27T15:27:02+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://longchao.github.io/learning-data-visualization/index.html</loc>
+  <lastmod>2015-12-27T15:27:02+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://longchao.github.io/author/longchao/index.html</loc>
+  <lastmod>2015-12-27T15:27:02+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://longchao.github.io/homepage-animation/index.html</loc>
+  <lastmod>2015-12-27T15:27:02+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://longchao.github.io/user-onboarding-mistakes/index.html</loc>
+  <lastmod>2015-12-27T15:27:02+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://longchao.github.io/introducing-hotjar/index.html</loc>
+  <lastmod>2015-12-27T15:27:02+00:00</lastmod>
+  <changefreq>weekly</changefreq>
 </url>
 </urlset>
-
