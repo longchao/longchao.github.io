@@ -2073,28 +2073,38 @@ body:not(.post-template) .post-title {
    14. Home Layout 
    ========================================================================== */
 .row{
-    width: 126%;
-    margin-left: -13%;
+    width: 136%;
+    margin-left: -18%;
     display: -webkit-box;
     display: -webkit-flex;
     display: flex;
     flex-wrap: wrap;
-    margin-top: 2.5em;
+    margin-top: 1.5em;
 }
 .side-col{
-    -webkit-box-flex: auto; 
+/*    -webkit-box-flex: auto; 
     -webkit-flex: auto; 
-    flex: auto;
+    flex: auto;*/
+    width: 100%;
     margin-bottom: 0.9em;
     font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+.side-col:after{
+    content: '';
+    height: 18px;
+    width: 1px;
+    display: block;
+    background-color: #78CBF5;
+    margin: auto;
+    margin-top: 0.4em;
 }
 .main-col{
-    width: 75%;
+    width: 100%;
     display: -webkit-box;
     display: -webkit-flex;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
     font-size: 0.92em;
 }
 
@@ -2124,21 +2134,13 @@ body:not(.post-template) .post-title {
         margin-left: 0;
     }
     .side-col{
-        text-align: center;
+        /*text-align: center;*/
         margin-bottom: 0.8em;
     }
-    .side-col:after{
-        content: '';
-        height: 18px;
-        width: 1px;
-        display: block;
-        background-color: #78CBF5;
-        margin: auto;
-        margin-top: 0.4em;
-    }
-    .main-col{
+
+/*    .main-col{
         width: 100%;
-    }
+    }*/
 }
 
 @media screen and (max-width: 767px){
@@ -2157,13 +2159,16 @@ body:not(.post-template) .post-title {
 .section-title{
     letter-spacing: 2px;
     color: #198AE0;
+    font-size: 1.333em;
 }
 
 .main-col a{
     text-decoration: none;
     display: block;
 }
-.main-col>p a{
+.main-col>p{
+    width: 100%;
+    text-align: right;
     margin-top: 1.75em;
 }
 .work-container img{
