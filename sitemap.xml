@@ -20,16 +20,31 @@
   <loc>http://longchao.github.io/home</loc>
   <lastmod>2015-12-27T15:27:02+00:00</lastmod>
   <changefreq>weekly</changefreq>
+  <priority>1.0</priority>
 </url>
 <url>
   <loc>http://longchao.github.io/tag/works</loc>
   <lastmod>2015-12-27T15:27:02+00:00</lastmod>
   <changefreq>weekly</changefreq>
+  <priority>1.0</priority>
 </url>
 <url>
   <loc>http://longchao.github.io/learning-data-visualization/</loc>
   <lastmod>2015-12-27T15:27:02+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <changefreq>monthly</changefreq>
+  <priority>1.0</priority>
+</url>
+<url>
+  <loc>http://longchao.github.io/online-learning-experience-design/</loc>
+  <lastmod>2015-12-27T15:27:02+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>1.0</priority>
+</url>
+<url>
+  <loc>http://longchao.github.io/online-learning-experience-design/index.html</loc>
+  <lastmod>2015-12-27T15:27:02+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>1.0</priority>
 </url>
 <url>
   <loc>http://longchao.github.io/author/longchao/</loc>
@@ -39,12 +54,12 @@
 <url>
   <loc>http://longchao.github.io/homepage-animation/</loc>
   <lastmod>2015-12-27T15:27:02+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <changefreq>monthly</changefreq>
 </url>
 <url>
   <loc>http://longchao.github.io/user-onboarding-mistakes/</loc>
   <lastmod>2015-12-27T15:27:02+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <changefreq>monthly</changefreq>
 </url>
 <url>
   <loc>http://longchao.github.io/introducing-hotjar/</loc>
@@ -54,17 +69,20 @@
 <url>
   <loc>http://longchao.github.io/mycard/</loc>
   <lastmod>2015-12-27T15:27:02+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <changefreq>monthly</changefreq>
+  <priority>1.0</priority>
 </url>
 <url>
   <loc>http://longchao.github.io/mycard/index.html</loc>
   <lastmod>2015-12-27T15:27:02+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <changefreq>monthly</changefreq>
+  <priority>1.0</priority>
 </url>
 <url>
   <loc>http://longchao.github.io/learning-data-visualization/index.html</loc>
   <lastmod>2015-12-27T15:27:02+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <changefreq>monthly</changefreq>
+  <priority>1.0</priority>
 </url>
 <url>
   <loc>http://longchao.github.io/author/longchao/index.html</loc>
@@ -74,16 +92,16 @@
 <url>
   <loc>http://longchao.github.io/homepage-animation/index.html</loc>
   <lastmod>2015-12-27T15:27:02+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <changefreq>monthly</changefreq>
 </url>
 <url>
   <loc>http://longchao.github.io/user-onboarding-mistakes/index.html</loc>
   <lastmod>2015-12-27T15:27:02+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <changefreq>monthly</changefreq>
 </url>
 <url>
   <loc>http://longchao.github.io/introducing-hotjar/index.html</loc>
   <lastmod>2015-12-27T15:27:02+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <changefreq>monthly</changefreq>
 </url>
 </urlset>
