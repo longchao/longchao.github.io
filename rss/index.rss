@@ -1,48 +1,51 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Long Chao - UX Designer</title><description>Thoughts, stories and ideas.</description><link>http://localhost:2368/</link><generator>Ghost 0.7</generator><lastBuildDate>Tue, 29 Dec 2015 17:32:17 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>在线学习体验设计</title><description>&lt;p&gt;洋葱数学是一款以学生为中心的深度在线学习产品。怀揣着让学习变得高效、有趣、有启发的理念，我们产品团队一路设计、开发、打磨产品，让学习者拥有的更轻松快乐的学习体验。&lt;/p&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Blog | Long Chao - UX Designer</title><description>Thoughts, stories and ideas.</description><link>http://localhost:2368/</link><generator>Ghost 0.7</generator><lastBuildDate>Mon, 04 Jan 2016 07:50:28 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>在线学习体验设计</title><description>&lt;p&gt;洋葱数学是一款以学生为中心的深度在线学习产品。怀揣着让学习变得高效、有趣、有启发的理念，我们产品团队一路设计、开发、打磨产品，让学习者拥有的更轻松快乐的学习体验。&lt;/p&gt;
 
 &lt;p&gt;作为产品团队的初期成员，也是很长一段时间内唯一的设计师，我负责开展设计调研、竞品分析、设计沟通，制作信息架构、草图、原型，建立设计规范，并追踪数据、持续迭代改进产品。&lt;/p&gt;
 
 &lt;h3 id=""&gt;信息收集&lt;/h3&gt;
 
-&lt;p&gt;在项目的各个阶段，我使用各种不同的定量定性的研究方法，获取信息帮助指导设计决定。我用大量时间使用各种竞品，感受他们的整体学习体验，比对各个产品的定位、设计思路和功能设置。我还和很多真实用户接触，通过访谈、问卷等方式了解他们的特征、行为。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src="http://" alt="竞品"&gt;&lt;/p&gt;
+&lt;p&gt;从零开始到产品成型的各个阶段，我都需要使用各种不同的定量定性的研究方法，获取信息帮助指导设计决定。洋葱数学的目标用户是初中生——对于已经离开校园很久的我们来说已不敢说熟悉。我在市场部同事的协助下，接触很多真实用户，通过访谈、问卷等方式了解他们的特征。我也用大量时间使用各种竞品，感受他们的整体学习体验，比对各个产品的定位、设计思路和功能设置。
+&lt;img src="http://localhost:2368/content/images/2015/12/competative-analysis.png" alt="竞品分析"&gt;&lt;/p&gt;
 
 &lt;h3 id=""&gt;产品设计&lt;/h3&gt;
 
-&lt;p&gt;在思考产品设计时我们遇到的挑战是：怎么争夺学生用户已经极为紧俏的注意力，让他们从充满课堂、家教、游戏等等满满的时间表里挤出来些许时间；怎么能黏住学生，连续而完整的学习洋葱数学的课程。&lt;/p&gt;
+&lt;p&gt;在整个产品生命周期中，一直有两个目标指引着设计方案：怎么争夺学生用户已经极为紧俏的注意力，让他们从充满课堂、家教、游戏等等满满的时间表里挤出来些许时间；怎么能黏住学生，连续而完整的学习洋葱数学的课程。&lt;/p&gt;
 
-&lt;p&gt;首先，课程设计是根基，需要符合在线学习和移动学习的特点。我们把知识点精炼成易于咀嚼的小段视频，让学生不会觉得看段视频是负担。同时，视频中间插入可以让学生作答的交互性题目，把看视频从被动学习转变为主动学习。从导航方式上，我们把最小的学习单元包装成小任务，这样学生可以更简单的选择和追踪自己的学习进度。&lt;/p&gt;</description><link>http://localhost:2368/online-learning-experience-design/</link><guid isPermaLink="false">48bfa802-9963-4c7f-b34d-da858e7435d7</guid><category>Works</category><dc:creator>龙超</dc:creator><pubDate>Tue, 08 Sep 2015 17:16:00 GMT</pubDate><media:content url="http://localhost:2368/content/images/2015/12/Homepage-Illustration.png" medium="image"/><content:encoded>&lt;img src="http://localhost:2368/content/images/2015/12/Homepage-Illustration.png" alt="在线学习体验设计"&gt;&lt;p&gt;洋葱数学是一款以学生为中心的深度在线学习产品。怀揣着让学习变得高效、有趣、有启发的理念，我们产品团队一路设计、开发、打磨产品，让学习者拥有的更轻松快乐的学习体验。&lt;/p&gt;
+&lt;p&gt;首先，课程设计是根基，需要符合在线学习和移动学习的特点。我们把知识点精炼成易于咀嚼的小段视频，让学生不会觉得看段视频是负担。同时，视频中间插入可以让学生作答的交互性题目，把看视频从被动学习转变为主动学习。&lt;/p&gt;</description><link>http://localhost:2368/online-learning-experience-design/</link><guid isPermaLink="false">48bfa802-9963-4c7f-b34d-da858e7435d7</guid><category>Works</category><dc:creator>龙超</dc:creator><pubDate>Tue, 08 Sep 2015 17:16:00 GMT</pubDate><media:content url="http://localhost:2368/content/images/2015/12/Homepage-Illustration.png" medium="image"/><content:encoded>&lt;img src="http://localhost:2368/content/images/2015/12/Homepage-Illustration.png" alt="在线学习体验设计"&gt;&lt;p&gt;洋葱数学是一款以学生为中心的深度在线学习产品。怀揣着让学习变得高效、有趣、有启发的理念，我们产品团队一路设计、开发、打磨产品，让学习者拥有的更轻松快乐的学习体验。&lt;/p&gt;
 
 &lt;p&gt;作为产品团队的初期成员，也是很长一段时间内唯一的设计师，我负责开展设计调研、竞品分析、设计沟通，制作信息架构、草图、原型，建立设计规范，并追踪数据、持续迭代改进产品。&lt;/p&gt;
 
 &lt;h3 id=""&gt;信息收集&lt;/h3&gt;
 
-&lt;p&gt;在项目的各个阶段，我使用各种不同的定量定性的研究方法，获取信息帮助指导设计决定。我用大量时间使用各种竞品，感受他们的整体学习体验，比对各个产品的定位、设计思路和功能设置。我还和很多真实用户接触，通过访谈、问卷等方式了解他们的特征、行为。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src="http://" alt="在线学习体验设计"&gt;&lt;/p&gt;
+&lt;p&gt;从零开始到产品成型的各个阶段，我都需要使用各种不同的定量定性的研究方法，获取信息帮助指导设计决定。洋葱数学的目标用户是初中生——对于已经离开校园很久的我们来说已不敢说熟悉。我在市场部同事的协助下，接触很多真实用户，通过访谈、问卷等方式了解他们的特征。我也用大量时间使用各种竞品，感受他们的整体学习体验，比对各个产品的定位、设计思路和功能设置。
+&lt;img src="http://localhost:2368/content/images/2015/12/competative-analysis.png" alt="在线学习体验设计"&gt;&lt;/p&gt;
 
 &lt;h3 id=""&gt;产品设计&lt;/h3&gt;
 
-&lt;p&gt;在思考产品设计时我们遇到的挑战是：怎么争夺学生用户已经极为紧俏的注意力，让他们从充满课堂、家教、游戏等等满满的时间表里挤出来些许时间；怎么能黏住学生，连续而完整的学习洋葱数学的课程。&lt;/p&gt;
+&lt;p&gt;在整个产品生命周期中，一直有两个目标指引着设计方案：怎么争夺学生用户已经极为紧俏的注意力，让他们从充满课堂、家教、游戏等等满满的时间表里挤出来些许时间；怎么能黏住学生，连续而完整的学习洋葱数学的课程。&lt;/p&gt;
 
-&lt;p&gt;首先，课程设计是根基，需要符合在线学习和移动学习的特点。我们把知识点精炼成易于咀嚼的小段视频，让学生不会觉得看段视频是负担。同时，视频中间插入可以让学生作答的交互性题目，把看视频从被动学习转变为主动学习。从导航方式上，我们把最小的学习单元包装成小任务，这样学生可以更简单的选择和追踪自己的学习进度。&lt;/p&gt;
+&lt;p&gt;首先，课程设计是根基，需要符合在线学习和移动学习的特点。我们把知识点精炼成易于咀嚼的小段视频，让学生不会觉得看段视频是负担。同时，视频中间插入可以让学生作答的交互性题目，把看视频从被动学习转变为主动学习。从导航方式上，我们把最小的学习单元包装成小任务，这样学生可以更简单的选择和追踪自己的学习进度。
+&lt;img src="http://localhost:2368/content/images/2015/12/course.png" alt="在线学习体验设计"&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src="http://" alt="在线学习体验设计"&gt;&lt;/p&gt;
+&lt;p&gt;最初的核心学习体验上线后，我们发现学生在活跃程度上不尽如人意。经过一系列反思和调研后，我们认为问题在于，首先，并没有引导用户按我们想象的节奏和顺序学习，达到最好的学习效果。第二，没有什么机制能正向激发学生更想学，这也是传统教的不足——反馈回路太长，学了一学期，期末考试才看到结果。&lt;/p&gt;
 
-&lt;p&gt;还要激发学生更想学。以往学生学习动力不足的一部分原因就是反馈回路太长，学了一学期，期末考试才看到结果。于是我们借鉴了游戏化思维。我们尝试引入每周目标，让学生自己设定目标；增强学习中的即时反馈，比如获得积分赋予学生成就感；还尝试过用对话式的答题加强互动性。&lt;/p&gt;
+&lt;p&gt;在接下来的迭代，我重新设计了学生初次使用的体验，引导用户学习如何使用洋葱数学。借鉴游戏化思维，尝试引入每周目标，让学生自己设定目标；在小阶段学习完成时增强即时反馈，比如奖励学生积分，赋予学生成就感。
+&lt;img src="http://localhost:2368/content/images/2015/12/onboard.png" alt="在线学习体验设计"&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src="http://" alt="在线学习体验设计"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://localhost:2368/content/images/2015/12/motivation.png" alt="在线学习体验设计"&gt;&lt;/p&gt;
 
-&lt;p&gt;Look and feel是产品de第一印象，我们希望青少年能够一见倾心，这样加大他们留下来的机会。因此明快的颜色，圆润的外观，帮助塑造出产品亲和的形象。&lt;/p&gt;
+&lt;p&gt;洋葱数学的核心用户群青少年，容易受到产品的Look and feel的影响。适合的产品形象既可以改善第一印象，加大他们留下来的机会，也能够提升使用时的情感感受。因此我们使用明快的颜色，圆润的外观，帮助塑造出亲和的产品形象。&lt;/p&gt;
 
-&lt;p&gt;&lt;img src="http://" alt="在线学习体验设计"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://localhost:2368/content/images/2015/12/style-guide.png" alt="在线学习体验设计"&gt;&lt;/p&gt;
 
-&lt;h3 id=""&gt;验证优化&lt;/h3&gt;
+&lt;h3 id=""&gt;验证&amp;amp;优化&lt;/h3&gt;
 
-&lt;p&gt;一旦核心学习体验发布上线，我们立即关注如何保持用户增长和用户粘性。借助Google Analytics, Umeng等服务提供的数据，我持续检测各个核心数据的变化，了解每个设计所带来的结果和变化。比如，转化漏斗的设置，帮我检测新用户转化的障碍，从而提供了优化onboarding路径提供了依据。我运用热力图、滚动图和录屏，观测用户在自然场景里的真实行为，用来和其他途径得到的数据进行互相参照。&lt;/p&gt;
+&lt;p&gt;在各个版本和迭代中，我密切关注设计对产品表现的影响。借助Google Analytics, Umeng等服务提供的数据，我持续检测转化率、留存率、学习数据等核心数据的变化。我运用热力图、滚动图和录屏，观测用户在自然场景里的真实行为，用来和其他途径得到的数据进行互相参照。
+&lt;img src="http://localhost:2368/content/images/2015/12/validate.png" alt="在线学习体验设计"&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src="http://" alt="在线学习体验设计"&gt;&lt;/p&gt;</content:encoded></item><item><title>为教师设计学习数据可视化</title><description>&lt;p&gt;作为洋葱数学的一分子，我们始终共享一种理念：&lt;strong&gt;做在线教育，不是把传统线下的教学强行搬到线上，而是对传统教学的增强&lt;/strong&gt;。我们知道，传统教学活动包括了两方的三个环节，即学生「学习知识点」、「完成练习」，老师「根据学生练习结果进行反馈指导」。洋葱数学已经依靠可反复观看的微视频，以及教研组精选的课后练习，实现了增强学习和练习两个环节。顺理成章地，我们把目光放在教师上，看看这里有什么样的产品机会。&lt;/p&gt;
+&lt;h3 id=""&gt;回顾&lt;/h3&gt;
+
+&lt;p&gt;在创业团队的这段时间给予我很多宝贵的经验。我得以在产品生命周期中实践精益法则，有试错也有学习。对产品的Ownership促使自己拓展各种能力应对随时而来的问题，也从同行的伙伴身上学到了很多新鲜的思维和方法。&lt;/p&gt;</content:encoded></item><item><title>为教师设计学习数据可视化</title><description>&lt;p&gt;作为洋葱数学的一分子，我们始终共享一种理念：&lt;strong&gt;做在线教育，不是把传统线下的教学强行搬到线上，而是对传统教学的增强&lt;/strong&gt;。我们知道，传统教学活动包括了两方的三个环节，即学生「学习知识点」、「完成练习」，老师「根据学生练习结果进行反馈指导」。洋葱数学已经依靠可反复观看的微视频，以及教研组精选的课后练习，实现了增强学习和练习两个环节。顺理成章地，我们把目光放在教师上，看看这里有什么样的产品机会。&lt;/p&gt;
 
 &lt;h3 id=""&gt;产品假设&lt;/h3&gt;
 
@@ -50,13 +53,11 @@
 
 &lt;h3 id=""&gt;验证假设&lt;/h3&gt;
 
-&lt;p&gt;为了验证这个产品假设，我将尽早出产品原型，通过教师模拟真实的场景验证，快速学习、频繁修正。&lt;/p&gt;
-
-&lt;p&gt;首先，为了了解老师们最关心的指标、需要数据的细致程度等等，我和几个种子教师用户进行了访谈。老师们通常关注预习完成情况、练习完成和练习质量，为传达这些指标，需要转化成相应的数据项，如下图&lt;/p&gt;
+&lt;p&gt;首先，为了了解老师们最关心的指标、需要数据的细致程度等等，我和几个种子教师用户进行了访谈。老师们通常关注学习完成情况、练习完成和练习质量，为传达这些指标，需要转化成相应的数据项，如下图&lt;/p&gt;
 
 &lt;p&gt;&lt;img src="http://localhost:2368/content/images/2015/09/data-requirements.png" alt="data-requirements"&gt;&lt;/p&gt;
 
-&lt;p&gt;我并不希望把数据一股脑全倒给老师，在深入设计细节前，我设定了两条原则。&lt;mark&gt;1.&lt;/mark&gt;&lt;/p&gt;</description><link>http://localhost:2368/learning-data-visualization/</link><guid isPermaLink="false">5eca5b2c-4724-4b06-b8d6-b0ce49a4a250</guid><category>Works</category><dc:creator>龙超</dc:creator><pubDate>Fri, 04 Sep 2015 08:39:00 GMT</pubDate><content:encoded>&lt;p&gt;作为洋葱数学的一分子，我们始终共享一种理念：&lt;strong&gt;做在线教育，不是把传统线下的教学强行搬到线上，而是对传统教学的增强&lt;/strong&gt;。我们知道，传统教学活动包括了两方的三个环节，即学生「学习知识点」、「完成练习」，老师「根据学生练习结果进行反馈指导」。洋葱数学已经依靠可反复观看的微视频，以及教研组精选的课后练习，实现了增强学习和练习两个环节。顺理成章地，我们把目光放在教师上，看看这里有什么样的产品机会。&lt;/p&gt;
+&lt;p&gt;我并不希望把数据一股脑全倒给老师，在深入设计细节前，我设定了两条原则。&lt;mark&gt;1. 宏观信息优先&lt;/mark&gt;， &lt;mark&gt;2. 按需查看细节&lt;/mark&gt;。我希望秉持这个原则，通过每一步有节制的展现信息，&lt;/p&gt;</description><link>http://localhost:2368/visualization-of-learning-data/</link><guid isPermaLink="false">5eca5b2c-4724-4b06-b8d6-b0ce49a4a250</guid><category>Works</category><dc:creator>龙超</dc:creator><pubDate>Fri, 04 Sep 2015 08:39:00 GMT</pubDate><media:content url="http://localhost:2368/content/images/2015/09/header-viz.png" medium="image"/><content:encoded>&lt;img src="http://localhost:2368/content/images/2015/09/header-viz.png" alt="为教师设计学习数据可视化"&gt;&lt;p&gt;作为洋葱数学的一分子，我们始终共享一种理念：&lt;strong&gt;做在线教育，不是把传统线下的教学强行搬到线上，而是对传统教学的增强&lt;/strong&gt;。我们知道，传统教学活动包括了两方的三个环节，即学生「学习知识点」、「完成练习」，老师「根据学生练习结果进行反馈指导」。洋葱数学已经依靠可反复观看的微视频，以及教研组精选的课后练习，实现了增强学习和练习两个环节。顺理成章地，我们把目光放在教师上，看看这里有什么样的产品机会。&lt;/p&gt;
 
 &lt;h3 id=""&gt;产品假设&lt;/h3&gt;
 
@@ -64,20 +65,23 @@
 
 &lt;h3 id=""&gt;验证假设&lt;/h3&gt;
 
-&lt;p&gt;为了验证这个产品假设，我将尽早出产品原型，通过教师模拟真实的场景验证，快速学习、频繁修正。&lt;/p&gt;
+&lt;p&gt;首先，为了了解老师们最关心的指标、需要数据的细致程度等等，我和几个种子教师用户进行了访谈。老师们通常关注学习完成情况、练习完成和练习质量，为传达这些指标，需要转化成相应的数据项，如下图&lt;/p&gt;
 
-&lt;p&gt;首先，为了了解老师们最关心的指标、需要数据的细致程度等等，我和几个种子教师用户进行了访谈。老师们通常关注预习完成情况、练习完成和练习质量，为传达这些指标，需要转化成相应的数据项，如下图&lt;/p&gt;
-
-&lt;p&gt;&lt;img src="http://localhost:2368/content/images/2015/09/data-requirements.png" alt="data-requirements"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://localhost:2368/content/images/2015/09/data-requirements.png" alt="为教师设计学习数据可视化"&gt;&lt;/p&gt;
 
 &lt;p&gt;我并不希望把数据一股脑全倒给老师，在深入设计细节前，我设定了两条原则。&lt;mark&gt;1. 宏观信息优先&lt;/mark&gt;， &lt;mark&gt;2. 按需查看细节&lt;/mark&gt;。我希望秉持这个原则，通过每一步有节制的展现信息，让教师用户查看数据时更有条理。按照学成完成学习才能产生数据的因果关系，我将完成百分比定义为「宏观数据」，其他定义为「细节数据」，并勾画出用户从宏观到细节查看数据的流程。&lt;/p&gt;
 
-&lt;p&gt;接下来需要做的就是不同页面的数据表现方式。我比较喜欢画低保真的草图，快速得比对不同版本的优劣，并且很容易的从他人获得反馈，进行迭代。
-&lt;img src="http://localhost:2368/content/images/2015/09/userflow.png" alt="userflow"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://localhost:2368/content/images/2015/09/userflow.png" alt="为教师设计学习数据可视化"&gt;&lt;/p&gt;
+
+&lt;p&gt;接下来，我画低保真的草图，尝试不同页面的数据表现方式。这样可以比较快速得比对不同版本的优劣，并且很容易的从他人获得反馈。然后我让前面提到的教师用户，对着草图模拟日常使用的场景，提出反馈意见，如此几次迭代，趋向最终设计。&lt;/p&gt;
 
 &lt;h3 id=""&gt;最终设计&lt;/h3&gt;
 
-&lt;p&gt;Takeaways&lt;/p&gt;</content:encoded></item><item><title>首页的动画设计</title><description>&lt;p&gt;拥有游戏般的学习体验是洋葱数学一直追求的设计方向。动画Animation和转场动效Transition大量存在于各种游戏中，在创造情感体验上起到很重要的作用。所以我们想把动画效果加入首页，希望能达到这样几个目的：&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://localhost:2368/content/images/2015/09/topics.png" alt="为教师设计学习数据可视化"&gt;
+&lt;img src="http://localhost:2368/content/images/2015/09/learn.png" alt="为教师设计学习数据可视化"&gt;
+&lt;img src="http://localhost:2368/content/images/2015/09/practice.png" alt="为教师设计学习数据可视化"&gt;&lt;/p&gt;
+
+&lt;h3 id="takeaways"&gt;Takeaways&lt;/h3&gt;</content:encoded></item><item><title>首页的动画设计</title><description>&lt;p&gt;拥有游戏般的学习体验是洋葱数学一直追求的设计方向。动画Animation和转场动效Transition大量存在于各种游戏中，在创造情感体验上起到很重要的作用。所以我们想把动画效果加入首页，希望能达到这样几个目的：&lt;/p&gt;
 
 &lt;ol&gt;
 &lt;li&gt;为全站注入一种性格  &lt;/li&gt;
@@ -217,18 +221,18 @@ Tips：除了追踪用户在路径中的关键步骤的成功率，计算他们�
 
 &lt;h4 id=""&gt;总结&lt;/h4&gt;
 
-&lt;p&gt;Hotjar适合推荐给团队的所有成员，产品经理、工程师、设计师、市场不同的角色可以用不同的视角使用此工具，为持续改善产品提供有力支持。&lt;/p&gt;</content:encoded></item><item><title>Mycard卡片管理应用</title><description>Mycard是内部创新小组的一次应用设计提案。我们想解决的问题很简单，帮助用户管理会员卡，以此将消费者与商家连接。我和产品经理和工程师紧密合作，应用用户中心的设计方法，将想法塑造为产品，并且可视化成为概念证明(proof-of-concept)。</description><link>http://localhost:2368/mycard/</link><guid isPermaLink="false">2bc01d2f-6a76-472e-8779-b27351418084</guid><category>Works</category><dc:creator>龙超</dc:creator><pubDate>Wed, 15 Apr 2015 08:20:00 GMT</pubDate><media:content url="http://localhost:2368/content/images/2015/12/header--1--3.png" medium="image"/><content:encoded>&lt;div class="additional-meta"&gt;  
+&lt;p&gt;Hotjar适合推荐给团队的所有成员，产品经理、工程师、设计师、市场不同的角色可以用不同的视角使用此工具，为持续改善产品提供有力支持。&lt;/p&gt;</content:encoded></item><item><title>Mycard卡片管理应用</title><description>Mycard是内部创新小组的一次应用设计提案。我们想解决的问题很简单，帮助用户管理会员卡，以此将消费者与商家连接。我和产品经理和工程师紧密合作，应用用户中心的设计方法，将想法塑造为产品，并且可视化成为概念证明(proof-of-concept)。</description><link>http://localhost:2368/mycard/</link><guid isPermaLink="false">2bc01d2f-6a76-472e-8779-b27351418084</guid><category>Works</category><dc:creator>龙超</dc:creator><pubDate>Wed, 15 Apr 2015 08:20:00 GMT</pubDate><media:content url="http://localhost:2368/content/images/2015/12/header-mycard.png" medium="image"/><content:encoded>&lt;img src="http://localhost:2368/content/images/2015/12/header-mycard.png" alt="Mycard卡片管理应用"&gt;&lt;p&gt;Mycard是内部创新小组的一次应用设计提案。我们想解决的问题很简单，帮助用户管理会员卡，以此将消费者与商家连接。我和产品经理和工程师紧密合作，应用用户中心的设计方法，将想法塑造为产品，并且可视化成为概念证明(proof-of-concept)。&lt;/p&gt;
+
+&lt;div class="additional-meta"&gt;  
 &lt;section&gt;  
 &lt;h6&gt;时间&lt;/h6&gt;  
-&lt;img src="http://localhost:2368/content/images/2015/12/header--1--3.png" alt="Mycard卡片管理应用"&gt;&lt;p&gt;2012&lt;/p&gt;  
+&lt;p&gt;2012&lt;/p&gt;  
 &lt;/section&gt;  
 &lt;section&gt;  
 &lt;h6&gt;角色&lt;/h6&gt;  
 &lt;p&gt;user research, sto­ry­boards, infor­ma­tion architecture, interaction, visual design&lt;/p&gt;  
 &lt;/section&gt;  
 &lt;/div&gt;
-
-&lt;p&gt;Mycard是内部创新小组的一次应用设计提案。我们想解决的问题很简单，帮助用户管理会员卡，以此将消费者与商家连接。我和产品经理和工程师紧密合作，应用用户中心的设计方法，将想法塑造为产品，并且可视化成为概念证明(proof-of-concept)。&lt;/p&gt;
 
 &lt;h3 id=""&gt;发现方向&lt;/h3&gt;
 
