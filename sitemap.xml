@@ -73,6 +73,17 @@
   <priority>1.0</priority>
 </url>
 <url>
+  <loc>http://longchao.github.io/what-we-hear-when-we-listen-to-music/</loc>
+  <lastmod>2015-12-27T15:27:02+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://longchao.github.io/mobile-app/</loc>
+  <lastmod>2015-12-27T15:27:02+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+</url>
+
+<url>
   <loc>http://longchao.github.io/mycard/index.html</loc>
   <lastmod>2015-12-27T15:27:02+00:00</lastmod>
   <changefreq>monthly</changefreq>
@@ -101,6 +112,16 @@
 </url>
 <url>
   <loc>http://longchao.github.io/introducing-hotjar/index.html</loc>
+  <lastmod>2015-12-27T15:27:02+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://longchao.github.io/what-we-hear-when-we-listen-to-music/index.html</loc>
+  <lastmod>2015-12-27T15:27:02+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://longchao.github.io/mobile-app/index.html</loc>
   <lastmod>2015-12-27T15:27:02+00:00</lastmod>
   <changefreq>monthly</changefreq>
 </url>
