@@ -8,14 +8,14 @@
 
     var $document = $(document);
 
-    $(function () {
+    $document.ready(function () {
 
         var $postContent = $(".post-content");
         $postContent.fitVids();
 
         $(".scroll-down").arctic_scroll();
 
-        $(".menu-button, .nav-cover, .nav-close").on("touchstart click", function(e){
+        $(".menu-button, .nav-cover, .nav-close").on("click", function(e){
             e.preventDefault();
             $("body").toggleClass("nav-opened nav-closed");
         });
