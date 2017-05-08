@@ -1,60 +1,74 @@
-
+<!DOCTYPE html>
+<html>
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
     <title>首页的动画设计 | Long Chao - UX Designer</title>
-    <meta name="description" content="">
+    <meta name="description" content="" />
 
-    <meta name="HandheldFriendly" content="True">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link rel="shortcut icon" href="../favicon.ico">
 
-    <link rel="stylesheet" type="text/css" href="../assets/css/screen.css?v=f3150293ba">
-    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic%7COpen+Sans:700,400">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400" />
+    <link rel="stylesheet" type="text/css" href="../assets/css/screen.css?v=e49bcf3226" />
 
-    <link rel="canonical" href="index.html">
-    <meta name="referrer" content="origin">
+
+    <link rel="canonical" href="index.html" />
+    <meta name="referrer" content="no-referrer-when-downgrade" />
+    <link rel="amphtml" href="amp/index.html" />
     
-    <meta property="og:site_name" content="Blog | Long Chao - UX Designer">
-    <meta property="og:type" content="article">
-    <meta property="og:title" content="首页的动画设计 | Long Chao - UX Designer">
-    <meta property="og:description" content="拥有游戏般的学习体验是洋葱数学一直追求的设计方向。动画Animation和转场动效Transition大量存在于各种游戏中，在创造情感体验上起到很重要的作用。所以我们想把动画效果加入首页，希望能达到这样几个目的： 为全站注入一种性格   帮助吸引视线，创造一种叙事感   改善onboarding体验，以期改善留存率 详细请访问洋葱数学 个性化的动画 我们采用css transition移动图片的方式实现动画。尽管有默认的transition-timeing-function，以及各类动画库，但要创造有个性的动画，做好的方式还是自定义。 Tips：为了制造一种bounce-in的动画效果，我需要在设置动画的transition-timing-function时用到cubic-bezier属性。这里我常用一个工具来帮助我们这些数学不好的人，可视化根据曲线设置的动画。check this out cubic-bezier.com  总结 为了保证体验的一致性，我将同类的或相似的动画统一使用一种参数。以后的开发中可以抽出来集合成动画效果库，规范命名方便日后使用。...">
-    <meta property="og:url" content="http://localhost:2368/homepage-animation/">
-    <meta property="article:published_time" content="2015-08-10T08:23:00.000Z">
-    <meta property="article:modified_time" content="2015-12-29T17:21:54.877Z">
-    <meta property="article:tag" content="Works">
+    <meta property="og:site_name" content="Blog | Long Chao - UX Designer" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="首页的动画设计 | Long Chao - UX Designer" />
+    <meta property="og:description" content="拥有游戏般的学习体验是洋葱数学一直追求的设计方向。动画Animation和转场动效Transition大量存在于各种游戏中，在创造情感体验上起到很重要的作用。所以我们想把动画效果加入首页，希望能达到这样几个目的： 为全站注入一种性格   帮助吸引视线，创造一种叙事感   改善onboarding体验，以期改善留存率 详细请访问洋葱数学 个性化的动画 我们采用css transition移动图片的方式实现动画。尽管有默认的transition-timeing-function，以及各类动画库，但要创造有个性的动画，做好的方式还是自定义。 Tips：为了制造一种bounce-in的动画效果，我需要在设置动画的transition-timing-function时用到cubic-bezier属性。这里我常用一个工具来帮助我们这些数学不好的人，可视化根据曲线设置的动画。check this out cubic-bezier.com  总结 为了保证体验的一致性，我将同类的或相似的动画统一使用一种参数。以后的开发中可以抽出来集合成动画效果库，规范命名方便日后使用。" />
+    <meta property="og:url" content="http://localhost:2368/homepage-animation/" />
+    <meta property="article:published_time" content="2015-08-10T08:23:00.000Z" />
+    <meta property="article:modified_time" content="2015-12-29T17:21:54.000Z" />
+    <meta property="article:tag" content="Works" />
     
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="首页的动画设计 | Long Chao - UX Designer">
-    <meta name="twitter:description" content="拥有游戏般的学习体验是洋葱数学一直追求的设计方向。动画Animation和转场动效Transition大量存在于各种游戏中，在创造情感体验上起到很重要的作用。所以我们想把动画效果加入首页，希望能达到这样几个目的： 为全站注入一种性格   帮助吸引视线，创造一种叙事感   改善onboarding体验，以期改善留存率 详细请访问洋葱数学 个性化的动画 我们采用css transition移动图片的方式实现动画。尽管有默认的transition-timeing-function，以及各类动画库，但要创造有个性的动画，做好的方式还是自定义。 Tips：为了制造一种bounce-in的动画效果，我需要在设置动画的transition-timing-function时用到cubic-bezier属性。这里我常用一个工具来帮助我们这些数学不好的人，可视化根据曲线设置的动画。check this out cubic-bezier.com  总结 为了保证体验的一致性，我将同类的或相似的动画统一使用一种参数。以后的开发中可以抽出来集合成动画效果库，规范命名方便日后使用。...">
-    <meta name="twitter:url" content="http://localhost:2368/homepage-animation/">
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="首页的动画设计 | Long Chao - UX Designer" />
+    <meta name="twitter:description" content="拥有游戏般的学习体验是洋葱数学一直追求的设计方向。动画Animation和转场动效Transition大量存在于各种游戏中，在创造情感体验上起到很重要的作用。所以我们想把动画效果加入首页，希望能达到这样几个目的： 为全站注入一种性格   帮助吸引视线，创造一种叙事感   改善onboarding体验，以期改善留存率 详细请访问洋葱数学 个性化的动画 我们采用css transition移动图片的方式实现动画。尽管有默认的transition-timeing-function，以及各类动画库，但要创造有个性的动画，做好的方式还是自定义。 Tips：为了制造一种bounce-in的动画效果，我需要在设置动画的transition-timing-function时用到cubic-bezier属性。这里我常用一个工具来帮助我们这些数学不好的人，可视化根据曲线设置的动画。check this out cubic-bezier.com  总结 为了保证体验的一致性，我将同类的或相似的动画统一使用一种参数。以后的开发中可以抽出来集合成动画效果库，规范命名方便日后使用。" />
+    <meta name="twitter:url" content="http://localhost:2368/homepage-animation/" />
+    <meta name="twitter:label1" content="Written by" />
+    <meta name="twitter:data1" content="龙超" />
+    <meta name="twitter:label2" content="Filed under" />
+    <meta name="twitter:data2" content="Works" />
     
     <script type="application/ld+json">
 {
-    "@context": "http://schema.org",
+    "@context": "https://schema.org",
     "@type": "Article",
-    "publisher": "Blog | Long Chao - UX Designer",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Blog | Long Chao - UX Designer",
+        "logo": "http://localhost:2368/ghost/img/ghosticon.jpg"
+    },
     "author": {
         "@type": "Person",
         "name": "龙超",
-        "url": "http://localhost:2368/author/longchao",
-        "sameAs": null,
-        "description": null
+        "url": "http://localhost:2368/author/longchao/",
+        "sameAs": []
     },
     "headline": "首页的动画设计 | Long Chao - UX Designer",
     "url": "http://localhost:2368/homepage-animation/",
     "datePublished": "2015-08-10T08:23:00.000Z",
-    "dateModified": "2015-12-29T17:21:54.877Z",
+    "dateModified": "2015-12-29T17:21:54.000Z",
     "keywords": "Works",
-    "description": "拥有游戏般的学习体验是洋葱数学一直追求的设计方向。动画Animation和转场动效Transition大量存在于各种游戏中，在创造情感体验上起到很重要的作用。所以我们想把动画效果加入首页，希望能达到这样几个目的： 为全站注入一种性格   帮助吸引视线，创造一种叙事感   改善onboarding体验，以期改善留存率 详细请访问洋葱数学 个性化的动画 我们采用css transition移动图片的方式实现动画。尽管有默认的transition-timeing-function，以及各类动画库，但要创造有个性的动画，做好的方式还是自定义。 Tips：为了制造一种bounce-in的动画效果，我需要在设置动画的transition-timing-function时用到cubic-bezier属性。这里我常用一个工具来帮助我们这些数学不好的人，可视化根据曲线设置的动画。check this out cubic-bezier.com  总结 为了保证体验的一致性，我将同类的或相似的动画统一使用一种参数。以后的开发中可以抽出来集合成动画效果库，规范命名方便日后使用。..."
+    "description": "拥有游戏般的学习体验是洋葱数学一直追求的设计方向。动画Animation和转场动效Transition大量存在于各种游戏中，在创造情感体验上起到很重要的作用。所以我们想把动画效果加入首页，希望能达到这样几个目的： 为全站注入一种性格   帮助吸引视线，创造一种叙事感   改善onboarding体验，以期改善留存率 详细请访问洋葱数学 个性化的动画 我们采用css transition移动图片的方式实现动画。尽管有默认的transition-timeing-function，以及各类动画库，但要创造有个性的动画，做好的方式还是自定义。 Tips：为了制造一种bounce-in的动画效果，我需要在设置动画的transition-timing-function时用到cubic-bezier属性。这里我常用一个工具来帮助我们这些数学不好的人，可视化根据曲线设置的动画。check this out cubic-bezier.com  总结 为了保证体验的一致性，我将同类的或相似的动画统一使用一种参数。以后的开发中可以抽出来集合成动画效果库，规范命名方便日后使用。",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "http://localhost:2368"
+    }
 }
     </script>
 
-    <meta name="generator" content="Ghost 0.7">
-    <link rel="alternate" type="application/rss+xml" title="Blog | Long Chao - UX Designer" href="../rss/index.html">
-    <script>
+    <meta name="generator" content="Ghost 0.11" />
+    <link rel="alternate" type="application/rss+xml" title="Blog | Long Chao - UX Designer" href="../rss/index.html" />
+    <!-- <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -64,7 +78,7 @@
   ga('send', 'pageview');
 
 </script>
-<!-- Hotjar Tracking Code for http://longchao.github.io -->
+<!-- Hotjar Tracking Code for http://longchao.github.io 
 <script>
     (function(h,o,t,j,a,r){
         h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
@@ -74,7 +88,7 @@
         r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
         a.appendChild(r);
     })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
-</script>
+</script> -->
 </head>
 <body class="post-template tag-works nav-closed">
 
@@ -84,11 +98,11 @@
         <span class="hidden">Close</span>
     </a>
     <ul>
-            <li class="nav-home" role="presentation"><a href="../home">Home</a></li>
-            <li class="nav-works" role="presentation"><a href="../tag/works">Works</a></li>
-            <li class="nav-blog" role="presentation"><a href="../">Blog</a></li>
+            <li class="nav-home"><a href="../home">Home</a></li>
+            <li class="nav-works"><a href="../tag/works">Works</a></li>
+            <li class="nav-blog"><a href="../index.html">Blog</a></li>
     </ul>
-    <a class="subscribe-button icon-feed" href="../rss/index.rss">Subscribe</a>
+        <a class="subscribe-button icon-feed" href="../rss/index.html">Subscribe</a>
 </div>
 <span class="nav-cover"></span>
 
@@ -126,11 +140,11 @@
 
 <p><small>详细请访问<a href="http://yangcong345.com">洋葱数学</a></small></p>
 
-<p><img src="../content/images/2015/09/homepage_student1.gif" alt=""></p>
+<p><img src="../content/images/2015/09/homepage_student1.gif" alt="" /></p>
 
-<p><img src="../content/images/2015/09/homepage_teacher3.gif" alt=""></p>
+<p><img src="../content/images/2015/09/homepage_teacher3.gif" alt="" /></p>
 
-<p><img src="../content/images/2015/09/homepage_teacher4.gif" alt=""></p>
+<p><img src="../content/images/2015/09/homepage_teacher4.gif" alt="" /></p>
 
 <h4 id="">个性化的动画</h4>
 
@@ -138,7 +152,7 @@
 
 <p>Tips：为了制造一种bounce-in的动画效果，我需要在设置动画的transition-timing-function时用到cubic-bezier属性。这里我常用一个工具来帮助我们这些数学不好的人，可视化根据曲线设置的动画。check this out <a href="http://cubic-bezier.com">cubic-bezier.com</a> </p>
 
-<p><img src="../content/images/2015/09/cubic-bezier.gif" alt="cubic-bezier"></p>
+<p><img src="../content/images/2015/09/cubic-bezier.gif" alt="cubic-bezier" /></p>
 
 <h4 id="">总结</h4>
 
@@ -150,9 +164,9 @@
 
 
             <section class="author">
-                <h4><a href="../author/longchao/">龙超</a></h4>
+                <h4><a href="../author/longchao/index.html">龙超</a></h4>
 
-                    <p>Read <a href="../author/longchao/">more posts</a> by this author.</p>
+                    <p>Read <a href="../author/longchao/index.html">more posts</a> by this author.</p>
                 <div class="author-meta">
                     
                     
@@ -162,16 +176,20 @@
 
             <section class="share">
                 <h4>Share this post</h4>
-                <a class="icon-twitter" href="https://twitter.com/intent/tweet?text=%E9%A6%96%E9%A1%B5%E7%9A%84%E5%8A%A8%E7%94%BB%E8%AE%BE%E8%AE%A1&amp;url=http://localhost:2368/homepage-animation/" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                <a class="icon-twitter" href="https://twitter.com/intent/tweet?text=%E9%A6%96%E9%A1%B5%E7%9A%84%E5%8A%A8%E7%94%BB%E8%AE%BE%E8%AE%A1&amp;url=http://localhost:2368/homepage-animation/"
+                    onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
                     <span class="hidden">Twitter</span>
                 </a>
-                <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:2368/homepage-animation/" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+                <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:2368/homepage-animation/"
+                    onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
                     <span class="hidden">Facebook</span>
                 </a>
-                <a class="icon-google-plus" href="https://plus.google.com/share?url=http://localhost:2368/homepage-animation/" onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+                <a class="icon-google-plus" href="https://plus.google.com/share?url=http://localhost:2368/homepage-animation/"
+                   onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
                     <span class="hidden">Google+</span>
                 </a>
             </section>
+
 
         </footer>
 
@@ -179,16 +197,16 @@
 </main>
 
 <aside class="read-next">
-    <a class="read-next-story " style="background-image: url(../content/images/2015/09/header-viz.png)" href="../visualization-of-learning-data/">
+    <a class="read-next-story no-cover" href="../mobile-app/index.html">
         <section class="post">
-            <h2>为教师设计学习数据可视化</h2>
-            <p>作为洋葱数学的一分子，我们始终共享一种理念：做在线教育，不是把传统线下的教学强行搬到线上，而是对传统教学的增强。我们知道，传统教学活动包括了两方的三个环节，即学生「学习知识点」、「完成练习」，老师「根据学生练习结果进行反馈指导」。洋葱数学已经依靠可反复观看的微视频，以及教研组精选的课后练习，实现了增强学习和练习两个环节。顺理成章地，我们把目光放在教师上，看看这里有什么样的产品机会。 产品假设…</p>
+            <h2>洋葱数学移动应用</h2>
+            <p>&hellip;</p>
         </section>
     </a>
-    <a class="read-next-story prev " style="background-image: url(https://images.unsplash.com/45/eDLHCtzRR0yfFtU0BQar_sylwiabartyzel_themap.jpg?q=80&amp;amp;fm=jpg&amp;amp;s=01c873d86dbeae284f9128b2ca2201b9)" href="../user-onboarding-mistakes/">
+    <a class="read-next-story prev " style="background-image: url(https://images.unsplash.com/45/eDLHCtzRR0yfFtU0BQar_sylwiabartyzel_themap.jpg?q&#x3D;80&amp;amp;fm&#x3D;jpg&amp;amp;s&#x3D;01c873d86dbeae284f9128b2ca2201b9)" href="../user-onboarding-mistakes/index.html">
         <section class="post">
             <h2>[译]User Onboarding Mistakes</h2>
-            <p>在这个注意力和认知力十分宝贵的时代，尽快让用户明白你的服务的价值显得十分重要。useronboard.com的Samuel Hulick总结了5点在获取用户和尝试转化用户的过程中常见的失误。下面是摘要： Mistake #1: Counting on your interface to explain the value of your product…</p>
+            <p>在这个注意力和认知力十分宝贵的时代，尽快让用户明白你的服务的价值显得十分重要。useronboard.com的Samuel Hulick总结了5点在获取用户和尝试转化用户的过程中常见的失误。下面是摘要： Mistake #1: Counting on your interface to explain the value of your product&hellip;</p>
         </section>
     </a>
 </aside>
@@ -196,16 +214,16 @@
 
 
         <footer class="site-footer clearfix">
-            <section class="copyright"><a href="../">Blog | Long Chao - UX Designer</a> © 2016</section>
+            <section class="copyright"><a href="../index.html">Blog | Long Chao - UX Designer</a> &copy; 2017</section>
             <section class="poweredby">Proudly published with <a href="https://ghost.org">Ghost</a></section>
         </footer>
 
     </div>
 
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
     
-
-    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
-    <script type="text/javascript" src="../assets/js/jquery.fitvids.js?v=f3150293ba"></script>
-    <script type="text/javascript" src="../assets/js/index.js?v=f3150293ba"></script>
+    <script type="text/javascript" src="../assets/js/jquery.fitvids.js?v=e49bcf3226"></script>
+    <script type="text/javascript" src="../assets/js/index.js?v=e49bcf3226"></script>
 
 </body>
+</html>

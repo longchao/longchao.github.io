@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <title>教师端 - 班级添加学生</title>
+    <meta name="description" content="" />
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="../favicon.ico">
+
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400" />
+    <link rel="stylesheet" type="text/css" href="../assets/css/screen.css?v=e49bcf3226" />
+
+
+    <link rel="canonical" href="index.html" />
+    <meta name="referrer" content="no-referrer-when-downgrade" />
+    <link rel="amphtml" href="amp/index.html" />
+    
+    <meta property="og:site_name" content="Blog | Long Chao - UX Designer" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="教师端 - 班级添加学生" />
+    <meta property="og:description" content="背景 教师要查看自己学生的学习数据，前提是先建立班级，并把学生添加进来。 分析问题 前期的调研发现，实际教学中，一个典型的老师通常同时教多个班级，除了实体班级可能还会有虚拟班级，日常教学已经占用大量时间精力。站在老师角度，我希望维护班级等等这些任务只占用很少精力。 因此添加学生这个任务的目标是：不增加老师负担；短时间内所有学生加进来，成功率高。 方案设计 选择添加方案 一开始我能想到若干种添加学生的方法。为了选出符合体验目标的较优解把他们放入成功率和难易度的矩阵中。有两种方法落入了目标区域： 1.老师给没有账号的学生自动生成一批账号。此法成功率最高。  2.告知学生班级编号，让学生课后自己操作加入班级。这种方法成功率不如前一种，但适合有已经注册的学生需加入班级的场景。 两种方法结合，可覆盖所有场景，保证学生都进入班级。 告知学生如何加入 分别梳理两种添加方法的流程，会发现当老师完成线上的操作后，仍需要在线下告知学生加入班级的方法。这里线上线下之间，存在信息传递的鸿沟。 为弥合这个gap，一种解决方法是把信息传递到物理载体上。我们帮助老师生产一份方便打印的学生账号列表，每一个账号附带上引导学生通过web或移动访问洋葱数学的方法。打印出以后，每个学生的账号可以被裁剪成小条，发放给学生。 视觉设计" />
+    <meta property="og:url" content="http://localhost:2368/adding-students-to-class/" />
+    <meta property="article:published_time" content="2015-09-05T15:49:00.000Z" />
+    <meta property="article:modified_time" content="2017-04-24T08:11:04.000Z" />
+    <meta property="article:tag" content="Works" />
+    
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="教师端 - 班级添加学生" />
+    <meta name="twitter:description" content="背景 教师要查看自己学生的学习数据，前提是先建立班级，并把学生添加进来。 分析问题 前期的调研发现，实际教学中，一个典型的老师通常同时教多个班级，除了实体班级可能还会有虚拟班级，日常教学已经占用大量时间精力。站在老师角度，我希望维护班级等等这些任务只占用很少精力。 因此添加学生这个任务的目标是：不增加老师负担；短时间内所有学生加进来，成功率高。 方案设计 选择添加方案 一开始我能想到若干种添加学生的方法。为了选出符合体验目标的较优解把他们放入成功率和难易度的矩阵中。有两种方法落入了目标区域： 1.老师给没有账号的学生自动生成一批账号。此法成功率最高。  2.告知学生班级编号，让学生课后自己操作加入班级。这种方法成功率不如前一种，但适合有已经注册的学生需加入班级的场景。 两种方法结合，可覆盖所有场景，保证学生都进入班级。 告知学生如何加入 分别梳理两种添加方法的流程，会发现当老师完成线上的操作后，仍需要在线下告知学生加入班级的方法。这里线上线下之间，存在信息传递的鸿沟。 为弥合这个gap，一种解决方法是把信息传递到物理载体上。我们帮助老师生产一份方便打印的学生账号列表，每一个账号附带上引导学生通过web或移动访问洋葱数学的方法。打印出以后，每个学生的账号可以被裁剪成小条，发放给学生。 视觉设计" />
+    <meta name="twitter:url" content="http://localhost:2368/adding-students-to-class/" />
+    <meta name="twitter:label1" content="Written by" />
+    <meta name="twitter:data1" content="龙超" />
+    <meta name="twitter:label2" content="Filed under" />
+    <meta name="twitter:data2" content="Works" />
+    
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Blog | Long Chao - UX Designer",
+        "logo": "http://localhost:2368/ghost/img/ghosticon.jpg"
+    },
+    "author": {
+        "@type": "Person",
+        "name": "龙超",
+        "url": "http://localhost:2368/author/longchao/",
+        "sameAs": []
+    },
+    "headline": "教师端 - 班级添加学生",
+    "url": "http://localhost:2368/adding-students-to-class/",
+    "datePublished": "2015-09-05T15:49:00.000Z",
+    "dateModified": "2017-04-24T08:11:04.000Z",
+    "keywords": "Works",
+    "description": "背景 教师要查看自己学生的学习数据，前提是先建立班级，并把学生添加进来。 分析问题 前期的调研发现，实际教学中，一个典型的老师通常同时教多个班级，除了实体班级可能还会有虚拟班级，日常教学已经占用大量时间精力。站在老师角度，我希望维护班级等等这些任务只占用很少精力。 因此添加学生这个任务的目标是：不增加老师负担；短时间内所有学生加进来，成功率高。 方案设计 选择添加方案 一开始我能想到若干种添加学生的方法。为了选出符合体验目标的较优解把他们放入成功率和难易度的矩阵中。有两种方法落入了目标区域： 1.老师给没有账号的学生自动生成一批账号。此法成功率最高。  2.告知学生班级编号，让学生课后自己操作加入班级。这种方法成功率不如前一种，但适合有已经注册的学生需加入班级的场景。 两种方法结合，可覆盖所有场景，保证学生都进入班级。 告知学生如何加入 分别梳理两种添加方法的流程，会发现当老师完成线上的操作后，仍需要在线下告知学生加入班级的方法。这里线上线下之间，存在信息传递的鸿沟。 为弥合这个gap，一种解决方法是把信息传递到物理载体上。我们帮助老师生产一份方便打印的学生账号列表，每一个账号附带上引导学生通过web或移动访问洋葱数学的方法。打印出以后，每个学生的账号可以被裁剪成小条，发放给学生。 视觉设计",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "http://localhost:2368"
+    }
+}
+    </script>
+
+    <meta name="generator" content="Ghost 0.11" />
+    <link rel="alternate" type="application/rss+xml" title="Blog | Long Chao - UX Designer" href="../rss/index.html" />
+    <!-- <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-66296535-2', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<!-- Hotjar Tracking Code for http://longchao.github.io 
+<script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:126215,hjsv:5};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
+</script> -->
+</head>
+<body class="post-template tag-works nav-closed">
+
+    <div class="nav">
+    <h3 class="nav-title">Menu</h3>
+    <a href="index.html#" class="nav-close">
+        <span class="hidden">Close</span>
+    </a>
+    <ul>
+            <li class="nav-home"><a href="../home">Home</a></li>
+            <li class="nav-works"><a href="../tag/works">Works</a></li>
+            <li class="nav-blog"><a href="../index.html">Blog</a></li>
+    </ul>
+        <a class="subscribe-button icon-feed" href="../rss/index.html">Subscribe</a>
+</div>
+<span class="nav-cover"></span>
+
+
+    <div class="site-wrapper">
+
+        
+
+
+<header class="main-header post-head no-cover">
+    <nav class="main-nav  clearfix">
+        
+            <a class="menu-button icon-menu" href="index.html#"><span class="word">Menu</span></a>
+    </nav>
+</header>
+
+<main class="content" role="main">
+    <article class="post tag-works featured">
+
+        <header class="post-header">
+            <h1 class="post-title">教师端 - 班级添加学生</h1>
+            <section class="post-meta">
+                <time class="post-date" datetime="2015-09-05">05 September 2015</time>  on <a href="../tag/works">Works</a>
+            </section>
+        </header>
+
+        <section class="post-content">
+            <h3 id="">背景</h3>
+
+<p>教师要查看自己学生的学习数据，前提是先建立班级，并把学生添加进来。</p>
+
+<h3 id="">分析问题</h3>
+
+<p>前期的调研发现，实际教学中，一个典型的老师通常同时教多个班级，除了实体班级可能还会有虚拟班级，日常教学已经占用大量时间精力。站在老师角度，我希望维护班级等等这些任务只占用很少精力。</p>
+
+<p>因此添加学生这个任务的目标是：不增加老师负担；短时间内所有学生加进来，成功率高。</p>
+
+<h3 id="">方案设计</h3>
+
+<h6 id="">选择添加方案</h6>
+
+<p><img src="../content/images/2015/09/�%2596��%2595�%259B�%2580%2589.png" alt="方法筛选" /></p>
+
+<p>一开始我能想到若干种添加学生的方法。为了选出符合体验目标的较优解把他们放入成功率和难易度的矩阵中。有两种方法落入了目标区域：</p>
+
+<p>1.老师给没有账号的学生自动生成一批账号。此法成功率最高。 <br />
+2.告知学生班级编号，让学生课后自己操作加入班级。这种方法成功率不如前一种，但适合有已经注册的学生需加入班级的场景。</p>
+
+<p>两种方法结合，可覆盖所有场景，保证学生都进入班级。</p>
+
+<h6 id="">告知学生如何加入</h6>
+
+<p>分别梳理两种添加方法的流程，会发现当老师完成线上的操作后，仍需要在线下告知学生加入班级的方法。这里线上线下之间，存在信息传递的鸿沟。</p>
+
+<p><img src="../content/images/2015/09/线�%258A线�%258B.png" alt="线上线下" />
+<img src="../content/images/2015/09/snippets.png" alt="snippets" /></p>
+
+<p>为弥合这个gap，一种解决方法是把信息传递到物理载体上。我们帮助老师生产一份方便打印的学生账号列表，每一个账号附带上引导学生通过web或移动访问洋葱数学的方法。打印出以后，每个学生的账号可以被裁剪成小条，发放给学生。</p>
+
+<h3 id="">视觉设计</h3>
+
+<p><img src="../content/images/2015/09/设计.png" alt="设计" /></p>
+        </section>
+
+        <footer class="post-footer">
+
+
+
+            <section class="author">
+                <h4><a href="../author/longchao/index.html">龙超</a></h4>
+
+                    <p>Read <a href="../author/longchao/index.html">more posts</a> by this author.</p>
+                <div class="author-meta">
+                    
+                    
+                </div>
+            </section>
+
+
+            <section class="share">
+                <h4>Share this post</h4>
+                <a class="icon-twitter" href="https://twitter.com/intent/tweet?text=%E6%95%99%E5%B8%88%E7%AB%AF%20-%20%E7%8F%AD%E7%BA%A7%E6%B7%BB%E5%8A%A0%E5%AD%A6%E7%94%9F&amp;url=http://localhost:2368/adding-students-to-class/"
+                    onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                    <span class="hidden">Twitter</span>
+                </a>
+                <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:2368/adding-students-to-class/"
+                    onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+                    <span class="hidden">Facebook</span>
+                </a>
+                <a class="icon-google-plus" href="https://plus.google.com/share?url=http://localhost:2368/adding-students-to-class/"
+                   onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+                    <span class="hidden">Google+</span>
+                </a>
+            </section>
+
+
+        </footer>
+
+    </article>
+</main>
+
+<aside class="read-next">
+    <a class="read-next-story " style="background-image: url(../content/images/2015/12/Homepage-Illustration.png)" href="../online-learning-experience-design/index.html">
+        <section class="post">
+            <h2>在线学习体验设计</h2>
+            <p>洋葱数学是一款以学习者为中心的深度在线学习产品。这个产品的背后是一群怀揣教育理想的青年，希望推动教育创新，促进教育公平。我们希望通过这个产品实现愿景：让更多学生接触到优质的教育资源，享受到个性化的教学。 学习历来被当作一件苦差事，需要你投入大量时间和精力，如果不得法还收效甚微。如何驱动学生在数字化学习环境中投入时间并取得成效，是设计学习体验时面临的挑战。为解决这些挑战，作为产品团队的初期唯一的UX设计师，我努力将学习体验塑造成一件轻松、引人入胜的事，学生乐于参与其中，甚至学到上瘾。 打造学习体验&hellip;</p>
+        </section>
+    </a>
+    <a class="read-next-story prev " style="background-image: url(../content/images/2015/09/header-viz.png)" href="../visualization-of-learning-data/index.html">
+        <section class="post">
+            <h2>为教师设计学习数据可视化</h2>
+            <p>作为洋葱数学的一分子，我们始终共享一种理念：做在线教育，不是把传统线下的教学强行搬到线上，而是对传统教学的增强。我们知道，传统教学活动包括了两方的三个环节，即学生「学习知识点」、「完成练习」，老师「根据学生练习结果进行反馈指导」。洋葱数学已经依靠可反复观看的微视频，以及教研组精选的课后练习，实现了增强学习和练习两个环节。顺理成章地，我们把目光放在教师上，看看这里有什么样的产品机会。 产品假设&hellip;</p>
+        </section>
+    </a>
+</aside>
+
+
+
+        <footer class="site-footer clearfix">
+            <section class="copyright"><a href="../index.html">Blog | Long Chao - UX Designer</a> &copy; 2017</section>
+            <section class="poweredby">Proudly published with <a href="https://ghost.org">Ghost</a></section>
+        </footer>
+
+    </div>
+
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+    
+    <script type="text/javascript" src="../assets/js/jquery.fitvids.js?v=e49bcf3226"></script>
+    <script type="text/javascript" src="../assets/js/index.js?v=e49bcf3226"></script>
+
+</body>
+</html>
