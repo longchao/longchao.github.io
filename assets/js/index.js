@@ -8,7 +8,7 @@
 
     var $document = $(document);
 
-    $document.ready(function () {
+    $document.ready(function () { alert("onready hi");
 
         var $postContent = $(".post-content");
         $postContent.fitVids();
