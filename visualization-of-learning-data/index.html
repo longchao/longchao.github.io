@@ -1,46 +1,45 @@
-<!DOCTYPE html>
-<html>
+
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     <title>为教师设计学习数据可视化 | Long Chao - UX Designer</title>
-    <meta name="description" content="" />
+    <meta name="description" content="">
 
-    <meta name="HandheldFriendly" content="True" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="shortcut icon" href="../favicon.ico">
 
-    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400" />
-    <link rel="stylesheet" type="text/css" href="../assets/css/screen.css?v=e49bcf3226" />
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic%7COpen+Sans:700,400">
+    <link rel="stylesheet" type="text/css" href="../assets/css/screen.css?v=e6700ceee3">
 
 
-    <link rel="canonical" href="index.html" />
-    <meta name="referrer" content="no-referrer-when-downgrade" />
-    <link rel="amphtml" href="amp/index.html" />
+    <link rel="canonical" href="index.html">
+    <meta name="referrer" content="no-referrer-when-downgrade">
+    <link rel="amphtml" href="amp/index.html">
     
-    <meta property="og:site_name" content="Blog | Long Chao - UX Designer" />
-    <meta property="og:type" content="article" />
-    <meta property="og:title" content="为教师设计学习数据可视化 | Long Chao - UX Designer" />
-    <meta property="og:description" content="作为洋葱数学的一分子，我们始终共享一种理念：做在线教育，不是把传统线下的教学强行搬到线上，而是对传统教学的增强。我们知道，传统教学活动包括了两方的三个环节，即学生「学习知识点」、「完成练习」，老师「根据学生练习结果进行反馈指导」。洋葱数学已经依靠可反复观看的微视频，以及教研组精选的课后练习，实现了增强学习和练习两个环节。顺理成章地，我们把目光放在教师上，看看这里有什么样的产品机会。 产品假设 通过和老师的接触和分析，我了解到，传统教学中老师想要评估学生学习的结果，只能通过留作业－判作业。这通常会跨越一天或几天。因此我们提出了这样的假设，如果老师能够看到学生学习的数据，「根据学生练习结果进行反馈指导」这个环节将因此变得持续化，更即时，从而提升教学活动。 验证假设 首先，为了了解老师们最关心的指标、需要数据的细致程度等等，我和几个种子教师用户进行了访谈。老师们通常关注学习完成情况、练习完成和练习质量，为传达这些指标，需要转化成相应的数据项，如下图 我并不希望把数据一股脑全倒给老师，在深入设计细节前，我设定了两条原则。1. 宏观信息优先， 2. 按需查看细节。我希望秉持这个原则，通过每一步有节制的展现信息，" />
-    <meta property="og:url" content="http://localhost:2368/visualization-of-learning-data/" />
-    <meta property="og:image" content="http://localhost:2368/content/images/2015/09/header-viz.png" />
-    <meta property="article:published_time" content="2015-09-04T08:39:00.000Z" />
-    <meta property="article:modified_time" content="2016-01-03T12:17:38.000Z" />
-    <meta property="article:tag" content="Works" />
+    <meta property="og:site_name" content="Blog | Long Chao - UX Designer">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="为教师设计学习数据可视化 | Long Chao - UX Designer">
+    <meta property="og:description" content="作为洋葱数学的一分子，我们始终共享一种理念：做在线教育，不是把传统线下的教学强行搬到线上，而是对传统教学的增强。我们知道，传统教学活动包括了两方的三个环节，即学生「学习知识点」、「完成练习」，老师「根据学生练习结果进行反馈指导」。洋葱数学已经依靠可反复观看的微视频，以及教研组精选的课后练习，实现了增强学习和练习两个环节。顺理成章地，我们把目光放在教师上，看看这里有什么样的产品机会。 产品假设 通过和老师的接触和分析，我了解到，传统教学中老师想要评估学生学习的结果，只能通过留作业－判作业。这通常会跨越一天或几天。因此我们提出了这样的假设，如果老师能够看到学生学习的数据，「根据学生练习结果进行反馈指导」这个环节将因此变得持续化，更即时，从而提升教学活动。 验证假设 首先，为了了解老师们最关心的指标、需要数据的细致程度等等，我和几个种子教师用户进行了访谈。老师们通常关注学习完成情况、练习完成和练习质量，为传达这些指标，需要转化成相应的数据项，如下图 我并不希望把数据一股脑全倒给老师，在深入设计细节前，我设定了两条原则。1. 宏观信息优先， 2. 按需查看细节。我希望秉持这个原则，通过每一步有节制的展现信息，">
+    <meta property="og:url" content="http://localhost:2368/visualization-of-learning-data/">
+    <meta property="og:image" content="http://localhost:2368/content/images/2015/09/header-viz.png">
+    <meta property="article:published_time" content="2015-09-04T08:39:00.000Z">
+    <meta property="article:modified_time" content="2016-01-03T12:17:38.000Z">
+    <meta property="article:tag" content="Works">
     
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="为教师设计学习数据可视化 | Long Chao - UX Designer" />
-    <meta name="twitter:description" content="作为洋葱数学的一分子，我们始终共享一种理念：做在线教育，不是把传统线下的教学强行搬到线上，而是对传统教学的增强。我们知道，传统教学活动包括了两方的三个环节，即学生「学习知识点」、「完成练习」，老师「根据学生练习结果进行反馈指导」。洋葱数学已经依靠可反复观看的微视频，以及教研组精选的课后练习，实现了增强学习和练习两个环节。顺理成章地，我们把目光放在教师上，看看这里有什么样的产品机会。 产品假设 通过和老师的接触和分析，我了解到，传统教学中老师想要评估学生学习的结果，只能通过留作业－判作业。这通常会跨越一天或几天。因此我们提出了这样的假设，如果老师能够看到学生学习的数据，「根据学生练习结果进行反馈指导」这个环节将因此变得持续化，更即时，从而提升教学活动。 验证假设 首先，为了了解老师们最关心的指标、需要数据的细致程度等等，我和几个种子教师用户进行了访谈。老师们通常关注学习完成情况、练习完成和练习质量，为传达这些指标，需要转化成相应的数据项，如下图 我并不希望把数据一股脑全倒给老师，在深入设计细节前，我设定了两条原则。1. 宏观信息优先， 2. 按需查看细节。我希望秉持这个原则，通过每一步有节制的展现信息，" />
-    <meta name="twitter:url" content="http://localhost:2368/visualization-of-learning-data/" />
-    <meta name="twitter:image" content="http://localhost:2368/content/images/2015/09/header-viz.png" />
-    <meta name="twitter:label1" content="Written by" />
-    <meta name="twitter:data1" content="龙超" />
-    <meta name="twitter:label2" content="Filed under" />
-    <meta name="twitter:data2" content="Works" />
-    <meta property="og:image:width" content="1382" />
-    <meta property="og:image:height" content="500" />
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="为教师设计学习数据可视化 | Long Chao - UX Designer">
+    <meta name="twitter:description" content="作为洋葱数学的一分子，我们始终共享一种理念：做在线教育，不是把传统线下的教学强行搬到线上，而是对传统教学的增强。我们知道，传统教学活动包括了两方的三个环节，即学生「学习知识点」、「完成练习」，老师「根据学生练习结果进行反馈指导」。洋葱数学已经依靠可反复观看的微视频，以及教研组精选的课后练习，实现了增强学习和练习两个环节。顺理成章地，我们把目光放在教师上，看看这里有什么样的产品机会。 产品假设 通过和老师的接触和分析，我了解到，传统教学中老师想要评估学生学习的结果，只能通过留作业－判作业。这通常会跨越一天或几天。因此我们提出了这样的假设，如果老师能够看到学生学习的数据，「根据学生练习结果进行反馈指导」这个环节将因此变得持续化，更即时，从而提升教学活动。 验证假设 首先，为了了解老师们最关心的指标、需要数据的细致程度等等，我和几个种子教师用户进行了访谈。老师们通常关注学习完成情况、练习完成和练习质量，为传达这些指标，需要转化成相应的数据项，如下图 我并不希望把数据一股脑全倒给老师，在深入设计细节前，我设定了两条原则。1. 宏观信息优先， 2. 按需查看细节。我希望秉持这个原则，通过每一步有节制的展现信息，">
+    <meta name="twitter:url" content="http://localhost:2368/visualization-of-learning-data/">
+    <meta name="twitter:image" content="http://localhost:2368/content/images/2015/09/header-viz.png">
+    <meta name="twitter:label1" content="Written by">
+    <meta name="twitter:data1" content="龙超">
+    <meta name="twitter:label2" content="Filed under">
+    <meta name="twitter:data2" content="Works">
+    <meta property="og:image:width" content="1382">
+    <meta property="og:image:height" content="500">
     
     <script type="application/ld+json">
 {
@@ -76,8 +75,8 @@
 }
     </script>
 
-    <meta name="generator" content="Ghost 0.11" />
-    <link rel="alternate" type="application/rss+xml" title="Blog | Long Chao - UX Designer" href="../rss/index.html" />
+    <meta name="generator" content="Ghost 0.11">
+    <link rel="alternate" type="application/rss+xml" title="Blog | Long Chao - UX Designer" href="../rss/index.html">
     <!-- <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -110,9 +109,9 @@
     <ul>
             <li class="nav-home"><a href="../home">Home</a></li>
             <li class="nav-works"><a href="../tag/works">Works</a></li>
-            <li class="nav-blog"><a href="../index.html">Blog</a></li>
+            <li class="nav-blog"><a href="../">Blog</a></li>
     </ul>
-        <a class="subscribe-button icon-feed" href="../rss/index.html">Subscribe</a>
+        <a class="subscribe-button icon-feed" href="../rss/index.rss">Subscribe</a>
 </div>
 <span class="nav-cover"></span>
 
@@ -150,19 +149,19 @@
 
 <p>首先，为了了解老师们最关心的指标、需要数据的细致程度等等，我和几个种子教师用户进行了访谈。老师们通常关注学习完成情况、练习完成和练习质量，为传达这些指标，需要转化成相应的数据项，如下图</p>
 
-<p><img src="../content/images/2015/09/data-requirements.png" alt="data-requirements" /></p>
+<p><img src="../content/images/2015/09/data-requirements.png" alt="data-requirements"></p>
 
 <p>我并不希望把数据一股脑全倒给老师，在深入设计细节前，我设定了两条原则。<mark>1. 宏观信息优先</mark>， <mark>2. 按需查看细节</mark>。我希望秉持这个原则，通过每一步有节制的展现信息，让教师用户查看数据时更有条理。按照学成完成学习才能产生数据的因果关系，我将完成百分比定义为「宏观数据」，其他定义为「细节数据」，并勾画出用户从宏观到细节查看数据的流程。</p>
 
-<p><img src="../content/images/2015/09/userflow.png" alt="userflow" /></p>
+<p><img src="../content/images/2015/09/userflow.png" alt="userflow"></p>
 
 <p>接下来，我画低保真的草图，尝试不同页面的数据表现方式。这样可以比较快速得比对不同版本的优劣，并且很容易的从他人获得反馈。然后我让前面提到的教师用户，对着草图模拟日常使用的场景，提出反馈意见，如此几次迭代，趋向最终设计。</p>
 
 <h3 id="">最终设计</h3>
 
-<p><img src="../content/images/2015/09/topics.png" alt="知识点完成情况" />
-<img src="../content/images/2015/09/learn.png" alt="学习具体" />
-<img src="../content/images/2015/09/practice.png" alt="练习具体" /></p>
+<p><img src="../content/images/2015/09/topics.png" alt="知识点完成情况">
+<img src="../content/images/2015/09/learn.png" alt="学习具体">
+<img src="../content/images/2015/09/practice.png" alt="练习具体"></p>
 
 <h3 id="takeaways">Takeaways</h3>
         </section>
@@ -172,9 +171,9 @@
 
 
             <section class="author">
-                <h4><a href="../author/longchao/index.html">龙超</a></h4>
+                <h4><a href="../author/longchao/">龙超</a></h4>
 
-                    <p>Read <a href="../author/longchao/index.html">more posts</a> by this author.</p>
+                    <p>Read <a href="../author/longchao/">more posts</a> by this author.</p>
                 <div class="author-meta">
                     
                     
@@ -184,16 +183,13 @@
 
             <section class="share">
                 <h4>Share this post</h4>
-                <a class="icon-twitter" href="https://twitter.com/intent/tweet?text=%E4%B8%BA%E6%95%99%E5%B8%88%E8%AE%BE%E8%AE%A1%E5%AD%A6%E4%B9%A0%E6%95%B0%E6%8D%AE%E5%8F%AF%E8%A7%86%E5%8C%96&amp;url=http://localhost:2368/visualization-of-learning-data/"
-                    onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                <a class="icon-twitter" href="https://twitter.com/intent/tweet?text=%E4%B8%BA%E6%95%99%E5%B8%88%E8%AE%BE%E8%AE%A1%E5%AD%A6%E4%B9%A0%E6%95%B0%E6%8D%AE%E5%8F%AF%E8%A7%86%E5%8C%96&amp;url=http://localhost:2368/visualization-of-learning-data/" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
                     <span class="hidden">Twitter</span>
                 </a>
-                <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:2368/visualization-of-learning-data/"
-                    onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+                <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:2368/visualization-of-learning-data/" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
                     <span class="hidden">Facebook</span>
                 </a>
-                <a class="icon-google-plus" href="https://plus.google.com/share?url=http://localhost:2368/visualization-of-learning-data/"
-                   onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+                <a class="icon-google-plus" href="https://plus.google.com/share?url=http://localhost:2368/visualization-of-learning-data/" onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
                     <span class="hidden">Google+</span>
                 </a>
             </section>
@@ -205,16 +201,16 @@
 </main>
 
 <aside class="read-next">
-    <a class="read-next-story no-cover" href="../adding-students-to-class/index.html">
+    <a class="read-next-story no-cover" href="../adding-students-to-class/">
         <section class="post">
             <h2>教师端 - 班级添加学生</h2>
-            <p>背景 教师要查看自己学生的学习数据，前提是先建立班级，并把学生添加进来。 分析问题 前期的调研发现，实际教学中，一个典型的老师通常同时教多个班级，除了实体班级可能还会有虚拟班级，日常教学已经占用大量时间精力。站在老师角度，我希望维护班级等等这些任务只占用很少精力。 因此添加学生这个任务的目标是：不增加老师负担；短时间内所有学生加进来，成功率高。 方案设计 选择添加方案 一开始我能想到若干种添加学生的方法。&hellip;</p>
+            <p>背景 教师要查看自己学生的学习数据，前提是先建立班级，并把学生添加进来。 分析问题 前期的调研发现，实际教学中，一个典型的老师通常同时教多个班级，除了实体班级可能还会有虚拟班级，日常教学已经占用大量时间精力。站在老师角度，我希望维护班级等等这些任务只占用很少精力。 因此添加学生这个任务的目标是：不增加老师负担；短时间内所有学生加进来，成功率高。 方案设计 选择添加方案 一开始我能想到若干种添加学生的方法。…</p>
         </section>
     </a>
-    <a class="read-next-story prev no-cover" href="../mobile-app/index.html">
+    <a class="read-next-story prev no-cover" href="../mobile-app/">
         <section class="post">
             <h2>洋葱数学移动应用</h2>
-            <p>&hellip;</p>
+            <p>…</p>
         </section>
     </a>
 </aside>
@@ -222,16 +218,15 @@
 
 
         <footer class="site-footer clearfix">
-            <section class="copyright"><a href="../index.html">Blog | Long Chao - UX Designer</a> &copy; 2017</section>
+            <section class="copyright"><a href="../">Blog | Long Chao - UX Designer</a> © 2017</section>
             <section class="poweredby">Proudly published with <a href="https://ghost.org">Ghost</a></section>
         </footer>
 
     </div>
 
-    <script type="text/javascript" src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
     
-    <script type="text/javascript" src="../assets/js/jquery.fitvids.js?v=e49bcf3226"></script>
-    <script type="text/javascript" src="../assets/js/index.js?v=e49bcf3226"></script>
+    <script type="text/javascript" src="../assets/js/jquery.fitvids.js?v=e6700ceee3"></script>
+    <script type="text/javascript" src="../assets/js/index.js?v=e6700ceee3"></script>
 
 </body>
-</html>
